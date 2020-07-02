@@ -1,0 +1,2537 @@
+<?xml version="1.0"?>
+<parameterRanges>
+  <parameters>
+    <!-- Farm-level latent period (days) -->
+    <param name="latent" production-type="Cattle" type="distribution">
+      <bounds>-0.5,17.5</bounds>
+      <mean>0.6707,6.33333</mean>
+      <variance>0.449838,7.79144</variance>
+      <skewness>-0.235034,3.06472</skewness>
+    </param>
+    <param name="latent" production-type="Feedlot" type="distribution">
+      <bounds>0,9.3631</bounds>
+      <mean>1.98418,4.1</mean>
+      <variance>1.21,4.20754</variance>
+      <skewness>-0.235034,1.16052</skewness>
+    </param>
+    <param name="latent" production-type="Market" type="distribution">
+      <bounds>0,6.93341</bounds>
+      <mean>0,4.1</mean>
+      <variance>0,1.21</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="latent" production-type="Other" type="distribution">
+      <bounds>-0.5,17.5</bounds>
+      <mean>0,6.33333</mean>
+      <variance>0,7.79144</variance>
+      <skewness>-0.235034,1.57281</skewness>
+    </param>
+    <param name="latent" production-type="Pigs" type="distribution">
+      <bounds>-0.5,17.5</bounds>
+      <mean>0.862099,6.33333</mean>
+      <variance>0.25,13.1554</variance>
+      <skewness>0,1.57281</skewness>
+    </param>
+    <param name="latent" production-type="Sheep/Goats" type="distribution">
+      <bounds>-0.5,17.5</bounds>
+      <mean>0.621799,6.33333</mean>
+      <variance>0.00255541,7.79144</variance>
+      <skewness>-0.171956,0.817965</skewness>
+    </param>
+    <param name="latent" production-type="Wildlife" type="distribution">
+      <bounds>0,13</bounds>
+      <mean>0,10</mean>
+      <variance>0,4.20754</variance>
+      <skewness>-0.235034,0</skewness>
+    </param>
+    <!-- Farm-level infectious subclinical period (days) -->
+    <param name="subclinical" production-type="Cattle" type="distribution">
+      <bounds>-1.14905,8.52028</bounds>
+      <mean>0,2.6</mean>
+      <variance>0,3.4162</variance>
+      <skewness>-8.23038e-13,30.1152</skewness>
+    </param>
+    <param name="subclinical" production-type="Feedlot" type="distribution">
+      <bounds>0,8.52028</bounds>
+      <mean>1.03257,2.2</mean>
+      <variance>0.21769,3.4162</variance>
+      <skewness>0,7.14775</skewness>
+    </param>
+    <param name="subclinical" production-type="Market" type="distribution">
+      <bounds>0.139337,4.26066</bounds>
+      <mean>1,2.2</mean>
+      <variance>0,0.64</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="subclinical" production-type="Other" type="distribution">
+      <bounds>-0.806114,9.99512</bounds>
+      <mean>0,2.6</mean>
+      <variance>0,3.99573</variance>
+      <skewness>0,2.6073</skewness>
+    </param>
+    <param name="subclinical" production-type="Pigs" type="distribution">
+      <bounds>-0.703081,9.99512</bounds>
+      <mean>0,4.3</mean>
+      <variance>0,3.99573</variance>
+      <skewness>0,2.6073</skewness>
+    </param>
+    <param name="subclinical" production-type="Sheep/Goats" type="distribution">
+      <bounds>-1.26374,6.46374</bounds>
+      <mean>0,2.6</mean>
+      <variance>0,2.25</variance>
+      <skewness>0,30.3194</skewness>
+    </param>
+    <param name="subclinical" production-type="Wildlife" type="distribution">
+      <bounds>0,8.52028</bounds>
+      <mean>0,2.04318</mean>
+      <variance>0,3.4162</variance>
+      <skewness>0,1.80923</skewness>
+    </param>
+    <!-- Farm-level infectious clinical period (days) -->
+    <param name="clinical" production-type="Cattle" type="distribution">
+      <bounds>0,108.712</bounds>
+      <mean>13.1505,35</mean>
+      <variance>1.73413,1327.88</variance>
+      <skewness>-0.267498,17.8885</skewness>
+    </param>
+    <param name="clinical" production-type="Feedlot" type="distribution">
+      <bounds>0,506.88</bounds>
+      <mean>0.22002,32.493</mean>
+      <variance>8.86869e-06,49.2857</variance>
+      <skewness>-0.284885,0.709272</skewness>
+    </param>
+    <param name="clinical" production-type="Market" type="distribution">
+      <bounds>0,19</bounds>
+      <mean>0,15</mean>
+      <variance>0,2.28571</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="clinical" production-type="Other" type="distribution">
+      <bounds>0,60.131</bounds>
+      <mean>0,35</mean>
+      <variance>0,177.551</variance>
+      <skewness>-0.267498,0.484896</skewness>
+    </param>
+    <param name="clinical" production-type="Pigs" type="distribution">
+      <bounds>0,59</bounds>
+      <mean>9,36.7899</mean>
+      <variance>0.876984,85.7341</variance>
+      <skewness>-0.301511,3.972</skewness>
+    </param>
+    <param name="clinical" production-type="Sheep/Goats" type="distribution">
+      <bounds>0,60.131</bounds>
+      <mean>10.5,35</mean>
+      <variance>4.16667,177.551</variance>
+      <skewness>-0.338098,0.492448</skewness>
+    </param>
+    <param name="clinical" production-type="Wildlife" type="distribution">
+      <bounds>1,38</bounds>
+      <mean>16,23.1667</mean>
+      <variance>0.333333,46.9722</variance>
+      <skewness>-0.267498,0</skewness>
+    </param>
+    <!-- Farm-level natural immunity period (days) -->
+    <param name="immune" production-type="Cattle" type="distribution">
+      <bounds>180,1558.65</bounds>
+      <mean>230,1095</mean>
+      <variance>350,32400</variance>
+      <skewness>-0.305441,0.00359046</skewness>
+    </param>
+    <param name="immune" production-type="Feedlot" type="distribution">
+      <bounds>180,1558.65</bounds>
+      <mean>270,1095</mean>
+      <variance>1157.14,32400</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="immune" production-type="Market" type="distribution">
+      <bounds>6,360</bounds>
+      <mean>6,270</mean>
+      <variance>0,1157.14</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="immune" production-type="Other" type="distribution">
+      <bounds>6,1558.65</bounds>
+      <mean>6,1095</mean>
+      <variance>0,32400</variance>
+      <skewness>-0.305441,0.00359046</skewness>
+    </param>
+    <param name="immune" production-type="Pigs" type="distribution">
+      <bounds>0,1336.86</bounds>
+      <mean>180.879,272.485</mean>
+      <variance>350,42913</variance>
+      <skewness>-0.305441,0.00359046</skewness>
+    </param>
+    <param name="immune" production-type="Sheep/Goats" type="distribution">
+      <bounds>180,1161.82</bounds>
+      <mean>230,930</mean>
+      <variance>350,8100</variance>
+      <skewness>-0.305441,0.00359046</skewness>
+    </param>
+    <param name="immune" production-type="Wildlife" type="distribution">
+      <bounds>180,360</bounds>
+      <mean>270,270</mean>
+      <variance>1157.14,1157.14</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <!-- Within-farm prevalence -->
+    <param name="WHP" production-type="Cattle" type="chart">
+      <xBounds>0,42</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="WHP" production-type="Feedlot" type="chart">
+      <xBounds>0,42</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="WHP" production-type="Market" type="chart">
+      <xBounds>0,23</xBounds>
+      <yBounds>0,0.9071</yBounds>
+    </param>
+    <param name="WHP" production-type="Other" type="chart">
+      <xBounds>0,53</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="WHP" production-type="Pigs" type="chart">
+      <xBounds>0,53</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="WHP" production-type="Sheep/Goats" type="chart">
+      <xBounds>0,38.333</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="WHP" production-type="Wildlife" type="chart">
+      <xBounds>1,49</xBounds>
+      <yBounds>0,0.998</yBounds>
+    </param>
+    <!-- Direct contact rate -->
+    <param name="direct rate" production-type="Cattle" type="range">
+      <bounds>0.005,2.801</bounds>
+    </param>
+    <param name="direct rate" production-type="Feedlot" type="range">
+      <bounds>0.0006,1.4</bounds>
+    </param>
+    <param name="direct rate" production-type="Market" type="range">
+      <bounds>4.8,25</bounds>
+    </param>
+    <param name="direct rate" production-type="Other" type="range">
+      <bounds>0.01995,0.454216</bounds>
+    </param>
+    <param name="direct rate" production-type="Pigs" type="range">
+      <bounds>0.005,4.2542</bounds>
+    </param>
+    <param name="direct rate" production-type="Sheep/Goats" type="range">
+      <bounds>0.0015,2</bounds>
+    </param>
+    <param name="direct rate" production-type="Wildlife" type="range">
+      <bounds>0.0067,0.42</bounds>
+    </param>
+    <!-- Direct contact distance (km) -->
+    <param from-production-type="Cattle" name="direct distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,3448.61</bounds>
+      <mean>18.973,280.83</mean>
+      <variance>214.824,1.32632e+06</variance>
+      <skewness>-0.0316944,4.95116</skewness>
+    </param>
+    <param from-production-type="Cattle" name="direct distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,3448.61</bounds>
+      <mean>35.1667,280.83</mean>
+      <variance>223.24,1.32632e+06</variance>
+      <skewness>-0.180591,4.95116</skewness>
+    </param>
+    <param from-production-type="Cattle" name="direct distance" to-production-type="Market" type="distribution">
+      <bounds>0,3448.61</bounds>
+      <mean>70.4699,280.83</mean>
+      <variance>7454.78,1.32632e+06</variance>
+      <skewness>0.499462,4.95116</skewness>
+    </param>
+    <param from-production-type="Cattle" name="direct distance" to-production-type="Other" type="distribution">
+      <bounds>0,862.16</bounds>
+      <mean>18.973,263.321</mean>
+      <variance>565.112,16883</variance>
+      <skewness>-0.0493396,2.50588</skewness>
+    </param>
+    <param from-production-type="Cattle" name="direct distance" to-production-type="Pigs" type="distribution">
+      <bounds>0.621371,186.411</bounds>
+      <mean>41.5283,41.5283</mean>
+      <variance>846.675,846.675</variance>
+      <skewness>0.893337,0.893337</skewness>
+    </param>
+    <param from-production-type="Cattle" name="direct distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0.621371,805</bounds>
+      <mean>35.0667,156.333</mean>
+      <variance>214.824,14023.6</variance>
+      <skewness>0.195585,1.04993</skewness>
+    </param>
+    <param from-production-type="Cattle" name="direct distance" to-production-type="Wildlife" type="distribution">
+      <bounds>0,470.815</bounds>
+      <mean>70.4699,70.4699</mean>
+      <variance/>
+      <skewness/>
+    </param>
+    <param from-production-type="Feedlot" name="direct distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,3448.61</bounds>
+      <mean>80.75,280.83</mean>
+      <variance>906.268,1.32632e+06</variance>
+      <skewness>0.00830447,4.95116</skewness>
+    </param>
+    <param from-production-type="Feedlot" name="direct distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,3448.61</bounds>
+      <mean>70.4699,366.667</mean>
+      <variance>906.268,1.32632e+06</variance>
+      <skewness>-0.000553968,4.95116</skewness>
+    </param>
+    <param from-production-type="Feedlot" name="direct distance" to-production-type="Market" type="distribution">
+      <bounds>0,3448.61</bounds>
+      <mean>70.4699,280.83</mean>
+      <variance>16883,1.32632e+06</variance>
+      <skewness>0.499462,4.95116</skewness>
+    </param>
+    <param from-production-type="Feedlot" name="direct distance" to-production-type="Other" type="distribution">
+      <bounds>0,862.16</bounds>
+      <mean>70.4699,263.321</mean>
+      <variance>16883,16883</variance>
+      <skewness>0.499462,0.499462</skewness>
+    </param>
+    <param from-production-type="Market" name="direct distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,3448.61</bounds>
+      <mean>70.4699,280.83</mean>
+      <variance>7454.78,1.32632e+06</variance>
+      <skewness>0.499462,4.95116</skewness>
+    </param>
+    <param from-production-type="Market" name="direct distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,3448.61</bounds>
+      <mean>70.4699,280.83</mean>
+      <variance>16883,1.32632e+06</variance>
+      <skewness>0.499462,4.95116</skewness>
+    </param>
+    <param from-production-type="Market" name="direct distance" to-production-type="Market" type="distribution">
+      <bounds>0,3448.61</bounds>
+      <mean>280.83,280.83</mean>
+      <variance>1.32632e+06,1.32632e+06</variance>
+      <skewness>4.95116,4.95116</skewness>
+    </param>
+    <param from-production-type="Market" name="direct distance" to-production-type="Other" type="distribution">
+      <bounds>0,862.16</bounds>
+      <mean>70.4699,263.321</mean>
+      <variance>16883,16883</variance>
+      <skewness>0.499462,0.499462</skewness>
+    </param>
+    <param from-production-type="Market" name="direct distance" to-production-type="Pigs" type="distribution">
+      <bounds>0,470.815</bounds>
+      <mean>70.4699,70.4699</mean>
+      <variance/>
+      <skewness/>
+    </param>
+    <param from-production-type="Market" name="direct distance" to-production-type="Wildlife" type="distribution">
+      <bounds>0,470.815</bounds>
+      <mean>70.4699,70.4699</mean>
+      <variance/>
+      <skewness/>
+    </param>
+    <param from-production-type="Other" name="direct distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,862.16</bounds>
+      <mean>0.367799,263.321</mean>
+      <variance>0.135648,16883</variance>
+      <skewness>-0.0316944,87.6766</skewness>
+    </param>
+    <param from-production-type="Other" name="direct distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,862.16</bounds>
+      <mean>70.4699,387</mean>
+      <variance>16883,22333.1</variance>
+      <skewness>0.0736068,0.499462</skewness>
+    </param>
+    <param from-production-type="Other" name="direct distance" to-production-type="Market" type="distribution">
+      <bounds>0,862.16</bounds>
+      <mean>70.4699,263.321</mean>
+      <variance>16883,16883</variance>
+      <skewness>0.499462,0.499462</skewness>
+    </param>
+    <param from-production-type="Other" name="direct distance" to-production-type="Other" type="distribution">
+      <bounds>0,862.16</bounds>
+      <mean>0.367799,263.321</mean>
+      <variance>0.135648,16883</variance>
+      <skewness>-1.01097,87.6766</skewness>
+    </param>
+    <param from-production-type="Other" name="direct distance" to-production-type="Pigs" type="distribution">
+      <bounds>0,862.16</bounds>
+      <mean>7.79429,263.321</mean>
+      <variance>65.8633,16883</variance>
+      <skewness>-0.333314,0.499462</skewness>
+    </param>
+    <param from-production-type="Other" name="direct distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0,667.987</bounds>
+      <mean>18.973,222.099</mean>
+      <variance>565.112,7778.53</variance>
+      <skewness>-1.01097,2.50588</skewness>
+    </param>
+    <param from-production-type="Other" name="direct distance" to-production-type="Wildlife" type="distribution">
+      <bounds>0,470.815</bounds>
+      <mean>70.4699,70.4699</mean>
+      <variance/>
+      <skewness/>
+    </param>
+    <param from-production-type="Pigs" name="direct distance" to-production-type="Cattle" type="distribution">
+      <bounds>0.621371,380</bounds>
+      <mean>41.5283,86.9767</mean>
+      <variance>846.675,2848.99</variance>
+      <skewness>0.800361,0.893337</skewness>
+    </param>
+    <param from-production-type="Pigs" name="direct distance" to-production-type="Market" type="distribution">
+      <bounds>0,470.815</bounds>
+      <mean>70.4699,70.4699</mean>
+      <variance/>
+      <skewness/>
+    </param>
+    <param from-production-type="Pigs" name="direct distance" to-production-type="Other" type="distribution">
+      <bounds>0,600</bounds>
+      <mean>7.79429,274.86</mean>
+      <variance>65.8633,17775.1</variance>
+      <skewness>-0.333314,0.533185</skewness>
+    </param>
+    <param from-production-type="Pigs" name="direct distance" to-production-type="Pigs" type="distribution">
+      <bounds>0,1500</bounds>
+      <mean>7.79429,283.5</mean>
+      <variance>65.8633,49094.5</variance>
+      <skewness>-0.333314,2.50588</skewness>
+    </param>
+    <param from-production-type="Pigs" name="direct distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0.621371,186.411</bounds>
+      <mean>41.5283,41.5283</mean>
+      <variance>846.675,846.675</variance>
+      <skewness>0.893337,0.893337</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct distance" to-production-type="Cattle" type="distribution">
+      <bounds>0.62,186.411</bounds>
+      <mean>37.385,41.5283</mean>
+      <variance>480.079,846.675</variance>
+      <skewness>0.562891,1.00315</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct distance" to-production-type="Feedlot" type="distribution">
+      <bounds>3,129</bounds>
+      <mean>41.3333,41.3333</mean>
+      <variance>480.079,480.079</variance>
+      <skewness>0.562891,0.562891</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct distance" to-production-type="Other" type="distribution">
+      <bounds>0,667.987</bounds>
+      <mean>18.973,222.099</mean>
+      <variance>480.079,7778.53</variance>
+      <skewness>-1.01097,2.50588</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct distance" to-production-type="Pigs" type="distribution">
+      <bounds>0.621371,186.411</bounds>
+      <mean>35.0667,41.5283</mean>
+      <variance>214.824,846.675</variance>
+      <skewness>0.195585,0.893337</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0,667.987</bounds>
+      <mean>18.973,222.099</mean>
+      <variance>214.824,7778.53</variance>
+      <skewness>-1.01097,2.50588</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="direct distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,470.815</bounds>
+      <mean>25,70.4699</mean>
+      <variance>208.333,208.333</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="direct distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,50</bounds>
+      <mean>25,25</mean>
+      <variance>208.333,208.333</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="direct distance" to-production-type="Market" type="distribution">
+      <bounds>0,470.815</bounds>
+      <mean>70.4699,70.4699</mean>
+      <variance/>
+      <skewness/>
+    </param>
+    <param from-production-type="Wildlife" name="direct distance" to-production-type="Other" type="distribution">
+      <bounds>0,470.815</bounds>
+      <mean>70.4699,70.4699</mean>
+      <variance/>
+      <skewness/>
+    </param>
+    <param from-production-type="Wildlife" name="direct distance" to-production-type="Pigs" type="distribution">
+      <bounds>0,50</bounds>
+      <mean>25,25</mean>
+      <variance>208.333,208.333</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="direct distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0,50</bounds>
+      <mean>25,25</mean>
+      <variance>208.333,208.333</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="direct distance" to-production-type="Wildlife" type="distribution">
+      <bounds>0,470.815</bounds>
+      <mean>70.4699,70.4699</mean>
+      <variance/>
+      <skewness/>
+    </param>
+    <!-- Direct contact probability of infection transfer -->
+    <param from-production-type="Cattle" name="direct prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.4,1</bounds>
+    </param>
+    <param from-production-type="Cattle" name="direct prob infect" to-production-type="Feedlot" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Cattle" name="direct prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Cattle" name="direct prob infect" to-production-type="Other" type="range">
+      <bounds>0.4,1</bounds>
+    </param>
+    <param from-production-type="Cattle" name="direct prob infect" to-production-type="Pigs" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Cattle" name="direct prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.99,0.99</bounds>
+    </param>
+    <param from-production-type="Cattle" name="direct prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Feedlot" name="direct prob infect" to-production-type="Cattle" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Feedlot" name="direct prob infect" to-production-type="Feedlot" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Feedlot" name="direct prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Feedlot" name="direct prob infect" to-production-type="Other" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Feedlot" name="direct prob infect" to-production-type="Pigs" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Feedlot" name="direct prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Feedlot" name="direct prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="direct prob infect" to-production-type="Cattle" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="direct prob infect" to-production-type="Feedlot" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="direct prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="direct prob infect" to-production-type="Other" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="direct prob infect" to-production-type="Pigs" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="direct prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="direct prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Other" name="direct prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.4,1</bounds>
+    </param>
+    <param from-production-type="Other" name="direct prob infect" to-production-type="Feedlot" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Other" name="direct prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Other" name="direct prob infect" to-production-type="Other" type="range">
+      <bounds>0.4,1</bounds>
+    </param>
+    <param from-production-type="Other" name="direct prob infect" to-production-type="Pigs" type="range">
+      <bounds>1,1</bounds>
+    </param>
+    <param from-production-type="Other" name="direct prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.4,1</bounds>
+    </param>
+    <param from-production-type="Other" name="direct prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Pigs" name="direct prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.99,0.99</bounds>
+    </param>
+    <param from-production-type="Pigs" name="direct prob infect" to-production-type="Feedlot" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Pigs" name="direct prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Pigs" name="direct prob infect" to-production-type="Other" type="range">
+      <bounds>1,1</bounds>
+    </param>
+    <param from-production-type="Pigs" name="direct prob infect" to-production-type="Pigs" type="range">
+      <bounds>0.4,1</bounds>
+    </param>
+    <param from-production-type="Pigs" name="direct prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Pigs" name="direct prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct prob infect" to-production-type="Cattle" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct prob infect" to-production-type="Feedlot" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct prob infect" to-production-type="Other" type="range">
+      <bounds>0.4,1</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct prob infect" to-production-type="Pigs" type="range">
+      <bounds>0.99,0.99</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.4,1</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="direct prob infect" to-production-type="Cattle" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="direct prob infect" to-production-type="Feedlot" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="direct prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="direct prob infect" to-production-type="Other" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="direct prob infect" to-production-type="Pigs" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="direct prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="direct prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <!-- Direct contact movement control -->
+    <param from-production-type="Cattle" name="direct movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="direct movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="direct movement" to-production-type="Market" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="direct movement" to-production-type="Other" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="direct movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.1,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="direct movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="direct movement" to-production-type="Wildlife" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="direct movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="direct movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="direct movement" to-production-type="Market" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="direct movement" to-production-type="Other" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="direct movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="direct movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="direct movement" to-production-type="Market" type="chart">
+      <xBounds>0,5</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="direct movement" to-production-type="Other" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="direct movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="direct movement" to-production-type="Wildlife" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="direct movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,20</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="direct movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="direct movement" to-production-type="Market" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="direct movement" to-production-type="Other" type="chart">
+      <xBounds>0,20</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="direct movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="direct movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,20</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="direct movement" to-production-type="Wildlife" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="direct movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="direct movement" to-production-type="Market" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="direct movement" to-production-type="Other" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="direct movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="direct movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.1,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.1,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct movement" to-production-type="Other" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.1,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="direct movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="direct movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="direct movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="direct movement" to-production-type="Market" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="direct movement" to-production-type="Other" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="direct movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="direct movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="direct movement" to-production-type="Wildlife" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <!-- Direct contact in-zone movement control -->
+    <param name="direct movement" production-type="Cattle" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="direct movement" production-type="Feedlot" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="direct movement" production-type="Market" type="chart">
+      <xBounds>0,5</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="direct movement" production-type="Other" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="direct movement" production-type="Pigs" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="direct movement" production-type="Sheep/Goats" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="direct movement" production-type="Wildlife" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <!-- Indirect contact rate -->
+    <param name="indirect rate" production-type="Cattle" type="range">
+      <bounds>0.1126,6.9684</bounds>
+    </param>
+    <param name="indirect rate" production-type="Feedlot" type="range">
+      <bounds>0.054,8.7899</bounds>
+    </param>
+    <param name="indirect rate" production-type="Market" type="range">
+      <bounds>1.5,3</bounds>
+    </param>
+    <param name="indirect rate" production-type="Other" type="range">
+      <bounds>0.0498,1.63064</bounds>
+    </param>
+    <param name="indirect rate" production-type="Pigs" type="range">
+      <bounds>0.0094,17.9392</bounds>
+    </param>
+    <param name="indirect rate" production-type="Sheep/Goats" type="range">
+      <bounds>0.0104,5.2</bounds>
+    </param>
+    <param name="indirect rate" production-type="Wildlife" type="range">
+      <bounds>0.1651,46.9</bounds>
+    </param>
+    <!-- Indirect contact distance (km) -->
+    <param from-production-type="Cattle" name="indirect distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6,180.045</mean>
+      <variance>18.8571,60309.8</variance>
+      <skewness>-0.0493396,2.50588</skewness>
+    </param>
+    <param from-production-type="Cattle" name="indirect distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6,180.045</mean>
+      <variance>30.0198,60309.8</variance>
+      <skewness>-0.0493396,2.07644</skewness>
+    </param>
+    <param from-production-type="Cattle" name="indirect distance" to-production-type="Market" type="distribution">
+      <bounds>0,27.631</bounds>
+      <mean>6,6</mean>
+      <variance>36,36</variance>
+      <skewness>2,2</skewness>
+    </param>
+    <param from-production-type="Cattle" name="indirect distance" to-production-type="Other" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6,180.045</mean>
+      <variance>36,60309.8</variance>
+      <skewness>-0.0493396,37.0273</skewness>
+    </param>
+    <param from-production-type="Cattle" name="indirect distance" to-production-type="Pigs" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6.70347,180.045</mean>
+      <variance>112.368,60309.8</variance>
+      <skewness>0.195585,3.07501</skewness>
+    </param>
+    <param from-production-type="Cattle" name="indirect distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6.70347,180.045</mean>
+      <variance>112.368,60309.8</variance>
+      <skewness>0.195585,3.07501</skewness>
+    </param>
+    <param from-production-type="Cattle" name="indirect distance" to-production-type="Wildlife" type="distribution">
+      <bounds>0,279.75</bounds>
+      <mean>60.7752,60.7752</mean>
+      <variance>3693.64,3693.64</variance>
+      <skewness>-0.0493396,-0.0493396</skewness>
+    </param>
+    <param from-production-type="Feedlot" name="indirect distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6,174.582</mean>
+      <variance>36,60309.8</variance>
+      <skewness>0.00888818,2.07644</skewness>
+    </param>
+    <param from-production-type="Feedlot" name="indirect distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6,174.582</mean>
+      <variance>30.0198,60309.8</variance>
+      <skewness>-0.253315,2.07644</skewness>
+    </param>
+    <param from-production-type="Feedlot" name="indirect distance" to-production-type="Market" type="distribution">
+      <bounds>0,27.631</bounds>
+      <mean>6,6</mean>
+      <variance>36,36</variance>
+      <skewness>2,2</skewness>
+    </param>
+    <param from-production-type="Feedlot" name="indirect distance" to-production-type="Other" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6,174.582</mean>
+      <variance>36,60309.8</variance>
+      <skewness>-0.0493396,2.07644</skewness>
+    </param>
+    <param from-production-type="Feedlot" name="indirect distance" to-production-type="Pigs" type="distribution">
+      <bounds>0.002788,2699.69</bounds>
+      <mean>31.1733,174.582</mean>
+      <variance>135.162,60309.8</variance>
+      <skewness>0.00888818,2.07644</skewness>
+    </param>
+    <param from-production-type="Feedlot" name="indirect distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0.002788,2699.69</bounds>
+      <mean>31.1733,174.582</mean>
+      <variance>135.162,60309.8</variance>
+      <skewness>0.00888818,2.07644</skewness>
+    </param>
+    <param from-production-type="Market" name="indirect distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,400</bounds>
+      <mean>6,120</mean>
+      <variance>36,4800</variance>
+      <skewness>0.57735,2</skewness>
+    </param>
+    <param from-production-type="Market" name="indirect distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,27.631</bounds>
+      <mean>6,6</mean>
+      <variance>36,36</variance>
+      <skewness>2,2</skewness>
+    </param>
+    <param from-production-type="Market" name="indirect distance" to-production-type="Market" type="distribution">
+      <bounds>0,27.631</bounds>
+      <mean>6,6</mean>
+      <variance>36,36</variance>
+      <skewness>2,2</skewness>
+    </param>
+    <param from-production-type="Market" name="indirect distance" to-production-type="Other" type="distribution">
+      <bounds>0,27.631</bounds>
+      <mean>6,6</mean>
+      <variance>36,36</variance>
+      <skewness>2,2</skewness>
+    </param>
+    <param from-production-type="Other" name="indirect distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6,174.582</mean>
+      <variance>36,60309.8</variance>
+      <skewness>-0.0573527,3.07501</skewness>
+    </param>
+    <param from-production-type="Other" name="indirect distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6,174.582</mean>
+      <variance>36,60309.8</variance>
+      <skewness>-0.0573527,2.07644</skewness>
+    </param>
+    <param from-production-type="Other" name="indirect distance" to-production-type="Other" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6,174.582</mean>
+      <variance>36,60309.8</variance>
+      <skewness>-0.0573527,5.16398</skewness>
+    </param>
+    <param from-production-type="Other" name="indirect distance" to-production-type="Pigs" type="distribution">
+      <bounds>0,1.49402e+135</bounds>
+      <mean>6,inf</mean>
+      <variance>36,inf</variance>
+      <skewness>-0.0493396,3.07501</skewness>
+    </param>
+    <param from-production-type="Other" name="indirect distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6.70347,174.582</mean>
+      <variance>40.6774,60309.8</variance>
+      <skewness>1.24872,3.07501</skewness>
+    </param>
+    <param from-production-type="Other" name="indirect distance" to-production-type="Wildlife" type="distribution">
+      <bounds>0,279.75</bounds>
+      <mean>60.7752,60.7752</mean>
+      <variance>3693.64,3693.64</variance>
+      <skewness>-0.0493396,-0.0493396</skewness>
+    </param>
+    <param from-production-type="Pigs" name="indirect distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,1169.75</bounds>
+      <mean>6,212.102</mean>
+      <variance>36,39746.7</variance>
+      <skewness>0.195585,3.07501</skewness>
+    </param>
+    <param from-production-type="Pigs" name="indirect distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,1169.75</bounds>
+      <mean>6,212.102</mean>
+      <variance>36,39746.7</variance>
+      <skewness>0.277309,2</skewness>
+    </param>
+    <param from-production-type="Pigs" name="indirect distance" to-production-type="Other" type="distribution">
+      <bounds>0,1169.75</bounds>
+      <mean>6,212.102</mean>
+      <variance>36,39746.7</variance>
+      <skewness>1.02779,3.07501</skewness>
+    </param>
+    <param from-production-type="Pigs" name="indirect distance" to-production-type="Pigs" type="distribution">
+      <bounds>0,1169.75</bounds>
+      <mean>6,212.102</mean>
+      <variance>30.0198,39746.7</variance>
+      <skewness>0.030419,2.64661</skewness>
+    </param>
+    <param from-production-type="Pigs" name="indirect distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0,1169.75</bounds>
+      <mean>6.70347,212.102</mean>
+      <variance>112.368,39746.7</variance>
+      <skewness>0.483987,3.07501</skewness>
+    </param>
+    <param from-production-type="Pigs" name="indirect distance" to-production-type="Wildlife" type="distribution">
+      <bounds>0,500</bounds>
+      <mean>56.823,56.823</mean>
+      <variance>3721.95,3721.95</variance>
+      <skewness>1.63093,1.63093</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6.70347,174.582</mean>
+      <variance>98.5534,60309.8</variance>
+      <skewness>0.195585,3.07501</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0.002788,2699.69</bounds>
+      <mean>31.5883,174.582</mean>
+      <variance>124.294,60309.8</variance>
+      <skewness>0.0464926,2.07644</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect distance" to-production-type="Other" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6.70347,174.582</mean>
+      <variance>149.135,60309.8</variance>
+      <skewness>1.47022,3.77964</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect distance" to-production-type="Pigs" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6.70347,174.582</mean>
+      <variance>112.368,60309.8</variance>
+      <skewness>0.195585,3.07501</skewness>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0,2699.69</bounds>
+      <mean>6.70347,174.582</mean>
+      <variance>30.0198,60309.8</variance>
+      <skewness>0.00830447,3.77964</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="indirect distance" to-production-type="Cattle" type="distribution">
+      <bounds>0,279.75</bounds>
+      <mean>25,60.7752</mean>
+      <variance>208.333,3693.64</variance>
+      <skewness>-0.0493396,0</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="indirect distance" to-production-type="Feedlot" type="distribution">
+      <bounds>0,50</bounds>
+      <mean>25,25</mean>
+      <variance>208.333,208.333</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="indirect distance" to-production-type="Other" type="distribution">
+      <bounds>0,279.75</bounds>
+      <mean>60.7752,60.7752</mean>
+      <variance>3693.64,3693.64</variance>
+      <skewness>-0.0493396,-0.0493396</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="indirect distance" to-production-type="Pigs" type="distribution">
+      <bounds>0,50</bounds>
+      <mean>25,25</mean>
+      <variance>208.333,208.333</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="indirect distance" to-production-type="Sheep/Goats" type="distribution">
+      <bounds>0,50</bounds>
+      <mean>25,25</mean>
+      <variance>208.333,208.333</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param from-production-type="Wildlife" name="indirect distance" to-production-type="Wildlife" type="distribution">
+      <bounds>0,279.75</bounds>
+      <mean>60.7752,60.7752</mean>
+      <variance>3693.64,3693.64</variance>
+      <skewness>-0.0493396,-0.0493396</skewness>
+    </param>
+    <!-- Indirect contact probability of infection transfer -->
+    <param from-production-type="Cattle" name="indirect prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.1,0.5</bounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect prob infect" to-production-type="Feedlot" type="range">
+      <bounds>0.1,0.5</bounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect prob infect" to-production-type="Market" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect prob infect" to-production-type="Other" type="range">
+      <bounds>0.1263,0.5</bounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect prob infect" to-production-type="Pigs" type="range">
+      <bounds>0.005,0.5937</bounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.005,0.4286</bounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect prob infect" to-production-type="Wildlife" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.1,0.5</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect prob infect" to-production-type="Feedlot" type="range">
+      <bounds>0.1,0.5</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect prob infect" to-production-type="Market" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect prob infect" to-production-type="Other" type="range">
+      <bounds>0.1263,0.5</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect prob infect" to-production-type="Pigs" type="range">
+      <bounds>0.1,0.5937</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.1,0.4286</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="indirect prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Market" name="indirect prob infect" to-production-type="Feedlot" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Market" name="indirect prob infect" to-production-type="Market" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Market" name="indirect prob infect" to-production-type="Other" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Market" name="indirect prob infect" to-production-type="Pigs" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="indirect prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="indirect prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Other" name="indirect prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.04613,0.5</bounds>
+    </param>
+    <param from-production-type="Other" name="indirect prob infect" to-production-type="Feedlot" type="range">
+      <bounds>0.1384,0.5</bounds>
+    </param>
+    <param from-production-type="Other" name="indirect prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Other" name="indirect prob infect" to-production-type="Other" type="range">
+      <bounds>0.03845,0.5</bounds>
+    </param>
+    <param from-production-type="Other" name="indirect prob infect" to-production-type="Pigs" type="range">
+      <bounds>0.005,0.5937</bounds>
+    </param>
+    <param from-production-type="Other" name="indirect prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.005,0.4286</bounds>
+    </param>
+    <param from-production-type="Other" name="indirect prob infect" to-production-type="Wildlife" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.005,0.6</bounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect prob infect" to-production-type="Feedlot" type="range">
+      <bounds>0.1186,0.6</bounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Pigs" name="indirect prob infect" to-production-type="Other" type="range">
+      <bounds>0.005,0.5</bounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect prob infect" to-production-type="Pigs" type="range">
+      <bounds>0.005,0.6</bounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.005,0.6</bounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect prob infect" to-production-type="Wildlife" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.005,0.4</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect prob infect" to-production-type="Feedlot" type="range">
+      <bounds>0.1,0.4</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect prob infect" to-production-type="Other" type="range">
+      <bounds>0.005,0.17</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect prob infect" to-production-type="Pigs" type="range">
+      <bounds>0.005,0.5937</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.005,0.5</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect prob infect" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="indirect prob infect" to-production-type="Cattle" type="range">
+      <bounds>0.25,0.8</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect prob infect" to-production-type="Feedlot" type="range">
+      <bounds>0.4,0.8</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect prob infect" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="indirect prob infect" to-production-type="Other" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect prob infect" to-production-type="Pigs" type="range">
+      <bounds>0.4,0.8</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect prob infect" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.4,0.8</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect prob infect" to-production-type="Wildlife" type="range">
+      <bounds>0.25,0.5</bounds>
+    </param>
+    <!-- Indirect contact movement control -->
+    <param from-production-type="Cattle" name="indirect movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect movement" to-production-type="Market" type="chart">
+      <xBounds>0,5</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect movement" to-production-type="Other" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Cattle" name="indirect movement" to-production-type="Wildlife" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect movement" to-production-type="Market" type="chart">
+      <xBounds>0,5</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect movement" to-production-type="Other" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.3,1</yBounds>
+    </param>
+    <param from-production-type="Feedlot" name="indirect movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.3,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="indirect movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="indirect movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="indirect movement" to-production-type="Market" type="chart">
+      <xBounds>0,5</xBounds>
+      <yBounds>0.05,1</yBounds>
+    </param>
+    <param from-production-type="Market" name="indirect movement" to-production-type="Other" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="indirect movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="indirect movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="indirect movement" to-production-type="Other" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="indirect movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="indirect movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Other" name="indirect movement" to-production-type="Wildlife" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.3,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect movement" to-production-type="Other" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Pigs" name="indirect movement" to-production-type="Wildlife" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0.3,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect movement" to-production-type="Other" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="indirect movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect movement" to-production-type="Cattle" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect movement" to-production-type="Feedlot" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect movement" to-production-type="Other" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect movement" to-production-type="Pigs" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect movement" to-production-type="Sheep/Goats" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <param from-production-type="Wildlife" name="indirect movement" to-production-type="Wildlife" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>1,1</yBounds>
+    </param>
+    <!-- Indirect contact in-zone movement control -->
+    <param name="indirect movement" production-type="Cattle" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.03,1</yBounds>
+    </param>
+    <param name="indirect movement" production-type="Feedlot" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.03,1</yBounds>
+    </param>
+    <param name="indirect movement" production-type="Market" type="chart">
+      <xBounds>0,5</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="indirect movement" production-type="Other" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.2,1</yBounds>
+    </param>
+    <param name="indirect movement" production-type="Pigs" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.03,1</yBounds>
+    </param>
+    <param name="indirect movement" production-type="Sheep/Goats" type="chart">
+      <xBounds>0,7</xBounds>
+      <yBounds>0.03,1</yBounds>
+    </param>
+    <param name="indirect movement" production-type="Wildlife" type="chart">
+      <xBounds>0,5</xBounds>
+      <yBounds>0.2,1</yBounds>
+    </param>
+    <!-- Airborne probability of infection transfer at 1km -->
+    <param from-production-type="Cattle" name="prob spread 1km" to-production-type="Cattle" type="range">
+      <bounds>1e-06,0.02</bounds>
+    </param>
+    <param from-production-type="Cattle" name="prob spread 1km" to-production-type="Feedlot" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Cattle" name="prob spread 1km" to-production-type="Market" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Cattle" name="prob spread 1km" to-production-type="Other" type="range">
+      <bounds>1e-06,0.02</bounds>
+    </param>
+    <param from-production-type="Cattle" name="prob spread 1km" to-production-type="Pigs" type="range">
+      <bounds>1e-06,0.02</bounds>
+    </param>
+    <param from-production-type="Cattle" name="prob spread 1km" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.004292,0.02</bounds>
+    </param>
+    <param from-production-type="Cattle" name="prob spread 1km" to-production-type="Wildlife" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="prob spread 1km" to-production-type="Cattle" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="prob spread 1km" to-production-type="Feedlot" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="prob spread 1km" to-production-type="Market" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="prob spread 1km" to-production-type="Other" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="prob spread 1km" to-production-type="Pigs" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="prob spread 1km" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.005,0.01</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="prob spread 1km" to-production-type="Wildlife" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Market" name="prob spread 1km" to-production-type="Cattle" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Market" name="prob spread 1km" to-production-type="Feedlot" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Market" name="prob spread 1km" to-production-type="Market" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Market" name="prob spread 1km" to-production-type="Other" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Market" name="prob spread 1km" to-production-type="Pigs" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Market" name="prob spread 1km" to-production-type="Sheep/Goats" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="prob spread 1km" to-production-type="Wildlife" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Other" name="prob spread 1km" to-production-type="Cattle" type="range">
+      <bounds>1e-06,0.02</bounds>
+    </param>
+    <param from-production-type="Other" name="prob spread 1km" to-production-type="Feedlot" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Other" name="prob spread 1km" to-production-type="Market" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Other" name="prob spread 1km" to-production-type="Other" type="range">
+      <bounds>1e-06,0.02</bounds>
+    </param>
+    <param from-production-type="Other" name="prob spread 1km" to-production-type="Pigs" type="range">
+      <bounds>1e-06,0.02</bounds>
+    </param>
+    <param from-production-type="Other" name="prob spread 1km" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.0038628,0.02</bounds>
+    </param>
+    <param from-production-type="Other" name="prob spread 1km" to-production-type="Wildlife" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Pigs" name="prob spread 1km" to-production-type="Cattle" type="range">
+      <bounds>1e-06,0.2</bounds>
+    </param>
+    <param from-production-type="Pigs" name="prob spread 1km" to-production-type="Feedlot" type="range">
+      <bounds>1e-06,0.2</bounds>
+    </param>
+    <param from-production-type="Pigs" name="prob spread 1km" to-production-type="Market" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Pigs" name="prob spread 1km" to-production-type="Other" type="range">
+      <bounds>1e-06,0.02</bounds>
+    </param>
+    <param from-production-type="Pigs" name="prob spread 1km" to-production-type="Pigs" type="range">
+      <bounds>1e-06,0.02</bounds>
+    </param>
+    <param from-production-type="Pigs" name="prob spread 1km" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.00329,0.02</bounds>
+    </param>
+    <param from-production-type="Pigs" name="prob spread 1km" to-production-type="Wildlife" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="prob spread 1km" to-production-type="Cattle" type="range">
+      <bounds>0.004292,0.02</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="prob spread 1km" to-production-type="Feedlot" type="range">
+      <bounds>0.005,0.01</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="prob spread 1km" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Sheep/Goats" name="prob spread 1km" to-production-type="Other" type="range">
+      <bounds>0.004292,0.02</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="prob spread 1km" to-production-type="Pigs" type="range">
+      <bounds>0.003004,0.02</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="prob spread 1km" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.0034336,0.02</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="prob spread 1km" to-production-type="Wildlife" type="range">
+      <bounds>0.005,0.01</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="prob spread 1km" to-production-type="Cattle" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="prob spread 1km" to-production-type="Feedlot" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="prob spread 1km" to-production-type="Market" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="prob spread 1km" to-production-type="Other" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="prob spread 1km" to-production-type="Pigs" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="prob spread 1km" to-production-type="Sheep/Goats" type="range">
+      <bounds>0.005,0.01</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="prob spread 1km" to-production-type="Wildlife" type="range">
+      <bounds>1e-06,0.01</bounds>
+    </param>
+    <!-- Airborne maximum distance of spread (km) -->
+    <param from-production-type="Cattle" name="max spread" to-production-type="Cattle" type="range">
+      <bounds>2.83106,6</bounds>
+    </param>
+    <param from-production-type="Cattle" name="max spread" to-production-type="Feedlot" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Cattle" name="max spread" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Cattle" name="max spread" to-production-type="Other" type="range">
+      <bounds>2.83106,3</bounds>
+    </param>
+    <param from-production-type="Cattle" name="max spread" to-production-type="Pigs" type="range">
+      <bounds>2.83106,6</bounds>
+    </param>
+    <param from-production-type="Cattle" name="max spread" to-production-type="Sheep/Goats" type="range">
+      <bounds>2.83106,6</bounds>
+    </param>
+    <param from-production-type="Cattle" name="max spread" to-production-type="Wildlife" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="max spread" to-production-type="Cattle" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="max spread" to-production-type="Feedlot" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="max spread" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Feedlot" name="max spread" to-production-type="Other" type="range">
+      <bounds>3,3</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="max spread" to-production-type="Pigs" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="max spread" to-production-type="Sheep/Goats" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="max spread" to-production-type="Wildlife" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Market" name="max spread" to-production-type="Cattle" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="max spread" to-production-type="Feedlot" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="max spread" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="max spread" to-production-type="Other" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="max spread" to-production-type="Pigs" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="max spread" to-production-type="Sheep/Goats" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="max spread" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Other" name="max spread" to-production-type="Cattle" type="range">
+      <bounds>2.83106,3</bounds>
+    </param>
+    <param from-production-type="Other" name="max spread" to-production-type="Feedlot" type="range">
+      <bounds>3,3</bounds>
+    </param>
+    <param from-production-type="Other" name="max spread" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Other" name="max spread" to-production-type="Other" type="range">
+      <bounds>2.83106,3</bounds>
+    </param>
+    <param from-production-type="Other" name="max spread" to-production-type="Pigs" type="range">
+      <bounds>2.83106,3</bounds>
+    </param>
+    <param from-production-type="Other" name="max spread" to-production-type="Sheep/Goats" type="range">
+      <bounds>2.83106,3</bounds>
+    </param>
+    <param from-production-type="Other" name="max spread" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Pigs" name="max spread" to-production-type="Cattle" type="range">
+      <bounds>3,8.08664</bounds>
+    </param>
+    <param from-production-type="Pigs" name="max spread" to-production-type="Feedlot" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Pigs" name="max spread" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Pigs" name="max spread" to-production-type="Other" type="range">
+      <bounds>3,7.82733</bounds>
+    </param>
+    <param from-production-type="Pigs" name="max spread" to-production-type="Pigs" type="range">
+      <bounds>3,6.99426</bounds>
+    </param>
+    <param from-production-type="Pigs" name="max spread" to-production-type="Sheep/Goats" type="range">
+      <bounds>3,7.21806</bounds>
+    </param>
+    <param from-production-type="Pigs" name="max spread" to-production-type="Wildlife" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="max spread" to-production-type="Cattle" type="range">
+      <bounds>2.83106,6</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="max spread" to-production-type="Feedlot" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="max spread" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Sheep/Goats" name="max spread" to-production-type="Other" type="range">
+      <bounds>2.83106,3</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="max spread" to-production-type="Pigs" type="range">
+      <bounds>2.83106,6</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="max spread" to-production-type="Sheep/Goats" type="range">
+      <bounds>2.83106,6</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="max spread" to-production-type="Wildlife" type="range">
+      <bounds>3,6</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="max spread" to-production-type="Cattle" type="range">
+      <bounds>3,50</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="max spread" to-production-type="Feedlot" type="range">
+      <bounds>3,50</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="max spread" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="max spread" to-production-type="Other" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Wildlife" name="max spread" to-production-type="Pigs" type="range">
+      <bounds>3,50</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="max spread" to-production-type="Sheep/Goats" type="range">
+      <bounds>3,50</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="max spread" to-production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <!-- Area at risk of airborne exposure: angle at center of span -->
+    <param from-production-type="Cattle" name="airborne direction" to-production-type="Cattle" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne direction" to-production-type="Feedlot" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne direction" to-production-type="Market" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne direction" to-production-type="Other" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne direction" to-production-type="Pigs" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne direction" to-production-type="Sheep/Goats" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne direction" to-production-type="Wildlife" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne direction" to-production-type="Cattle" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne direction" to-production-type="Feedlot" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne direction" to-production-type="Market" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne direction" to-production-type="Other" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne direction" to-production-type="Pigs" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne direction" to-production-type="Sheep/Goats" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne direction" to-production-type="Wildlife" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne direction" to-production-type="Cattle" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne direction" to-production-type="Feedlot" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne direction" to-production-type="Market" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne direction" to-production-type="Other" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne direction" to-production-type="Pigs" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne direction" to-production-type="Sheep/Goats" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="airborne direction" to-production-type="Wildlife" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne direction" to-production-type="Cattle" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne direction" to-production-type="Feedlot" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne direction" to-production-type="Market" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne direction" to-production-type="Other" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne direction" to-production-type="Pigs" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne direction" to-production-type="Sheep/Goats" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne direction" to-production-type="Wildlife" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne direction" to-production-type="Cattle" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne direction" to-production-type="Feedlot" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne direction" to-production-type="Market" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne direction" to-production-type="Other" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne direction" to-production-type="Pigs" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne direction" to-production-type="Sheep/Goats" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne direction" to-production-type="Wildlife" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne direction" to-production-type="Cattle" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne direction" to-production-type="Feedlot" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne direction" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne direction" to-production-type="Other" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne direction" to-production-type="Pigs" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne direction" to-production-type="Sheep/Goats" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne direction" to-production-type="Wildlife" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne direction" to-production-type="Cattle" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne direction" to-production-type="Feedlot" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne direction" to-production-type="Market" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne direction" to-production-type="Other" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne direction" to-production-type="Pigs" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne direction" to-production-type="Sheep/Goats" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne direction" to-production-type="Wildlife" type="range">
+      <bounds>180,180</bounds>
+    </param>
+    <!-- Area at risk of airborne exposure: span of angles -->
+    <param from-production-type="Cattle" name="airborne span" to-production-type="Cattle" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne span" to-production-type="Feedlot" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne span" to-production-type="Market" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne span" to-production-type="Other" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne span" to-production-type="Pigs" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne span" to-production-type="Sheep/Goats" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Cattle" name="airborne span" to-production-type="Wildlife" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne span" to-production-type="Cattle" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne span" to-production-type="Feedlot" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne span" to-production-type="Market" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne span" to-production-type="Other" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne span" to-production-type="Pigs" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne span" to-production-type="Sheep/Goats" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Feedlot" name="airborne span" to-production-type="Wildlife" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne span" to-production-type="Cattle" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne span" to-production-type="Feedlot" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne span" to-production-type="Market" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne span" to-production-type="Other" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne span" to-production-type="Pigs" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Market" name="airborne span" to-production-type="Sheep/Goats" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Market" name="airborne span" to-production-type="Wildlife" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne span" to-production-type="Cattle" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne span" to-production-type="Feedlot" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne span" to-production-type="Market" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne span" to-production-type="Other" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne span" to-production-type="Pigs" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne span" to-production-type="Sheep/Goats" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Other" name="airborne span" to-production-type="Wildlife" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne span" to-production-type="Cattle" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne span" to-production-type="Feedlot" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne span" to-production-type="Market" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne span" to-production-type="Other" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne span" to-production-type="Pigs" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne span" to-production-type="Sheep/Goats" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Pigs" name="airborne span" to-production-type="Wildlife" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne span" to-production-type="Cattle" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne span" to-production-type="Feedlot" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne span" to-production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne span" to-production-type="Other" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne span" to-production-type="Pigs" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne span" to-production-type="Sheep/Goats" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Sheep/Goats" name="airborne span" to-production-type="Wildlife" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne span" to-production-type="Cattle" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne span" to-production-type="Feedlot" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne span" to-production-type="Market" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne span" to-production-type="Other" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne span" to-production-type="Pigs" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne span" to-production-type="Sheep/Goats" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <param from-production-type="Wildlife" name="airborne span" to-production-type="Wildlife" type="range">
+      <bounds>360,360</bounds>
+    </param>
+    <!-- Probability of observing clinical signs -->
+    <param name="detection" production-type="Cattle" type="chart">
+      <xBounds>0,35</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="detection" production-type="Feedlot" type="chart">
+      <xBounds>0,14</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="detection" production-type="Market" type="chart">
+      <xBounds>1,7</xBounds>
+      <yBounds>0.01,0.8</yBounds>
+    </param>
+    <param name="detection" production-type="Other" type="chart">
+      <xBounds>0,34</xBounds>
+      <yBounds>0.003445,1</yBounds>
+    </param>
+    <param name="detection" production-type="Pigs" type="chart">
+      <xBounds>0,22</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="detection" production-type="Sheep/Goats" type="chart">
+      <xBounds>0,36</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="detection" production-type="Wildlife" type="chart">
+      <xBounds>0,14</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <!-- Probability of reporting -->
+    <param name="reporting" production-type="Cattle" type="chart">
+      <xBounds>0,35</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="reporting" production-type="Feedlot" type="chart">
+      <xBounds>0,14</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="reporting" production-type="Market" type="chart">
+      <xBounds>1,7</xBounds>
+      <yBounds>0.01,0.8</yBounds>
+    </param>
+    <param name="reporting" production-type="Other" type="chart">
+      <xBounds>0,34</xBounds>
+      <yBounds>0.003445,1</yBounds>
+    </param>
+    <param name="reporting" production-type="Pigs" type="chart">
+      <xBounds>0,22</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="reporting" production-type="Sheep/Goats" type="chart">
+      <xBounds>0,36</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <param name="reporting" production-type="Wildlife" type="chart">
+      <xBounds>0,14</xBounds>
+      <yBounds>0,1</yBounds>
+    </param>
+    <!-- In-zone multiplier for probability of observing clinical signs -->
+    <param name="zone detection multiplier" production-type="Cattle" type="range">
+      <bounds>1,19</bounds>
+    </param>
+    <param name="zone detection multiplier" production-type="Feedlot" type="range">
+      <bounds>1,4.47</bounds>
+    </param>
+    <param name="zone detection multiplier" production-type="Market" type="range">
+      <bounds>1,2</bounds>
+    </param>
+    <param name="zone detection multiplier" production-type="Other" type="range">
+      <bounds>1.117,4.75</bounds>
+    </param>
+    <param name="zone detection multiplier" production-type="Pigs" type="range">
+      <bounds>1,2</bounds>
+    </param>
+    <param name="zone detection multiplier" production-type="Sheep/Goats" type="range">
+      <bounds>1,15.2</bounds>
+    </param>
+    <param name="zone detection multiplier" production-type="Wildlife" type="range">
+      <bounds>2,2</bounds>
+    </param>
+    <!-- Period of interest for trace investigations of direct contacts -->
+    <param name="direct trace period" production-type="Cattle" type="range">
+      <bounds>7,28</bounds>
+    </param>
+    <param name="direct trace period" production-type="Feedlot" type="range">
+      <bounds>14,28</bounds>
+    </param>
+    <param name="direct trace period" production-type="Market" type="range">
+      <bounds>14,14</bounds>
+    </param>
+    <param name="direct trace period" production-type="Other" type="range">
+      <bounds>14,28</bounds>
+    </param>
+    <param name="direct trace period" production-type="Pigs" type="range">
+      <bounds>7,28</bounds>
+    </param>
+    <param name="direct trace period" production-type="Sheep/Goats" type="range">
+      <bounds>7,28</bounds>
+    </param>
+    <param name="direct trace period" production-type="Wildlife" type="range">
+      <bounds>14,14</bounds>
+    </param>
+    <!-- Delay for carrying out trace investigation of direct contact (days) -->
+    <param name="direct trace delay" production-type="Cattle" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>0,6.31333</mean>
+      <variance>0,6.93264</variance>
+      <skewness>0,0.448297</skewness>
+    </param>
+    <param name="direct trace delay" production-type="Feedlot" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>0,7.25333</mean>
+      <variance>0,6.99083</variance>
+      <skewness>-0.0479069,0</skewness>
+    </param>
+    <param name="direct trace delay" production-type="Market" type="distribution">
+      <bounds>0,7</bounds>
+      <mean>0,6</mean>
+      <variance>0,0.142857</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="direct trace delay" production-type="Other" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>1,6.31333</mean>
+      <variance>0,6.93264</variance>
+      <skewness>-6.09272e-13,0.301511</skewness>
+    </param>
+    <param name="direct trace delay" production-type="Pigs" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>0,6</mean>
+      <variance>0,6.31693</variance>
+      <skewness>0,0.43501</skewness>
+    </param>
+    <param name="direct trace delay" production-type="Sheep/Goats" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>0,6.04667</mean>
+      <variance>0,6.87017</variance>
+      <skewness>-6.09272e-13,0.301511</skewness>
+    </param>
+    <param name="direct trace delay" production-type="Wildlife" type="distribution">
+      <bounds>1,7</bounds>
+      <mean>1,6</mean>
+      <variance>0,0.142857</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <!-- Probability of a trace investigation succeeding when direct contact has occurred -->
+    <param name="direct trace success" production-type="Cattle" type="range">
+      <bounds>0.5,1</bounds>
+    </param>
+    <param name="direct trace success" production-type="Feedlot" type="range">
+      <bounds>0.65,1</bounds>
+    </param>
+    <param name="direct trace success" production-type="Market" type="range">
+      <bounds>0.65,1</bounds>
+    </param>
+    <param name="direct trace success" production-type="Other" type="range">
+      <bounds>0.5,1</bounds>
+    </param>
+    <param name="direct trace success" production-type="Pigs" type="range">
+      <bounds>0.5,1</bounds>
+    </param>
+    <param name="direct trace success" production-type="Sheep/Goats" type="range">
+      <bounds>0.5,0.95</bounds>
+    </param>
+    <param name="direct trace success" production-type="Wildlife" type="range">
+      <bounds>0.65,1</bounds>
+    </param>
+    <!-- Period of interest for trace investigations of indirect contacts -->
+    <param name="indirect trace period" production-type="Cattle" type="range">
+      <bounds>14,28</bounds>
+    </param>
+    <param name="indirect trace period" production-type="Feedlot" type="range">
+      <bounds>14,28</bounds>
+    </param>
+    <param name="indirect trace period" production-type="Market" type="range">
+      <bounds>14,14</bounds>
+    </param>
+    <param name="indirect trace period" production-type="Other" type="range">
+      <bounds>14,28</bounds>
+    </param>
+    <param name="indirect trace period" production-type="Pigs" type="range">
+      <bounds>14,28</bounds>
+    </param>
+    <param name="indirect trace period" production-type="Sheep/Goats" type="range">
+      <bounds>14,28</bounds>
+    </param>
+    <param name="indirect trace period" production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <!-- Delay for carrying out trace investigation of indirect contact (days) -->
+    <param name="indirect trace delay" production-type="Cattle" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>0,6.31333</mean>
+      <variance>0,6.93264</variance>
+      <skewness>0,0.448297</skewness>
+    </param>
+    <param name="indirect trace delay" production-type="Feedlot" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>0,7.25333</mean>
+      <variance>0,6.99083</variance>
+      <skewness>-0.0479069,0</skewness>
+    </param>
+    <param name="indirect trace delay" production-type="Market" type="distribution">
+      <bounds>0,0</bounds>
+      <mean>0,0</mean>
+      <variance>0,0</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="indirect trace delay" production-type="Other" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>2.16667,6.31333</mean>
+      <variance>0.305556,6.93264</variance>
+      <skewness>0.130397,0.301511</skewness>
+    </param>
+    <param name="indirect trace delay" production-type="Pigs" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>0,4.81333</mean>
+      <variance>0,6.31693</variance>
+      <skewness>0,0.43501</skewness>
+    </param>
+    <param name="indirect trace delay" production-type="Sheep/Goats" type="distribution">
+      <bounds>0,14</bounds>
+      <mean>0,6.04667</mean>
+      <variance>0,6.87017</variance>
+      <skewness>0,0.301511</skewness>
+    </param>
+    <param name="indirect trace delay" production-type="Wildlife" type="distribution"/>
+    <!-- Probability of a trace investigation succeeding when indirect contact has occurred -->
+    <param name="indirect trace success" production-type="Cattle" type="range">
+      <bounds>0.35,0.9</bounds>
+    </param>
+    <param name="indirect trace success" production-type="Feedlot" type="range">
+      <bounds>0.35,0.75</bounds>
+    </param>
+    <param name="indirect trace success" production-type="Market" type="range">
+      <bounds>0.5,0.5</bounds>
+    </param>
+    <param name="indirect trace success" production-type="Other" type="range">
+      <bounds>0.5,0.9</bounds>
+    </param>
+    <param name="indirect trace success" production-type="Pigs" type="range">
+      <bounds>0.36,0.9</bounds>
+    </param>
+    <param name="indirect trace success" production-type="Sheep/Goats" type="range">
+      <bounds>0.25,0.9</bounds>
+    </param>
+    <param name="indirect trace success" production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <!-- Multiplier for the probability of detection for farms identified by trace of direct contacts -->
+    <param name="direct trace detection multiplier" production-type="Cattle" type="range">
+      <bounds>1.85,100</bounds>
+    </param>
+    <param name="direct trace detection multiplier" production-type="Feedlot" type="range">
+      <bounds>1.58,4.47</bounds>
+    </param>
+    <param name="direct trace detection multiplier" production-type="Market" type="range">
+      <bounds>2,2</bounds>
+    </param>
+    <param name="direct trace detection multiplier" production-type="Other" type="range">
+      <bounds>2,133</bounds>
+    </param>
+    <param name="direct trace detection multiplier" production-type="Pigs" type="range">
+      <bounds>1,100</bounds>
+    </param>
+    <param name="direct trace detection multiplier" production-type="Sheep/Goats" type="range">
+      <bounds>15.2,133</bounds>
+    </param>
+    <param name="direct trace detection multiplier" production-type="Wildlife" type="range">
+      <bounds>2,2</bounds>
+    </param>
+    <!-- Multiplier for the probability of detection for farms identified by trace of indirect contacts -->
+    <param name="indirect trace detection multiplier" production-type="Cattle" type="range">
+      <bounds>1.85,100</bounds>
+    </param>
+    <param name="indirect trace detection multiplier" production-type="Feedlot" type="range">
+      <bounds>1.58,4.47</bounds>
+    </param>
+    <param name="indirect trace detection multiplier" production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param name="indirect trace detection multiplier" production-type="Other" type="range">
+      <bounds>4.75,100</bounds>
+    </param>
+    <param name="indirect trace detection multiplier" production-type="Pigs" type="range">
+      <bounds>1,100</bounds>
+    </param>
+    <param name="indirect trace detection multiplier" production-type="Sheep/Goats" type="range">
+      <bounds>15,19.95</bounds>
+    </param>
+    <param name="indirect trace detection multiplier" production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <!-- Test sensitivity -->
+    <param name="sensitivity" production-type="Cattle" type="range">
+      <bounds>0.5,0.9</bounds>
+    </param>
+    <param name="sensitivity" production-type="Feedlot" type="range">
+      <bounds>0.5,0.9</bounds>
+    </param>
+    <param name="sensitivity" production-type="Market" type="range">
+      <bounds>0.5,1</bounds>
+    </param>
+    <param name="sensitivity" production-type="Other" type="range">
+      <bounds>0.5,1</bounds>
+    </param>
+    <param name="sensitivity" production-type="Pigs" type="range">
+      <bounds>0.5,0.9</bounds>
+    </param>
+    <param name="sensitivity" production-type="Sheep/Goats" type="range">
+      <bounds>0.5,0.9</bounds>
+    </param>
+    <param name="sensitivity" production-type="Wildlife" type="range">
+      <bounds>0.5,0.85</bounds>
+    </param>
+    <!-- Test specificity -->
+    <param name="specificity" production-type="Cattle" type="range">
+      <bounds>0.5,0.999</bounds>
+    </param>
+    <param name="specificity" production-type="Feedlot" type="range">
+      <bounds>0.5,0.999</bounds>
+    </param>
+    <param name="specificity" production-type="Market" type="range">
+      <bounds>0.5,1</bounds>
+    </param>
+    <param name="specificity" production-type="Other" type="range">
+      <bounds>0.5,1</bounds>
+    </param>
+    <param name="specificity" production-type="Pigs" type="range">
+      <bounds>0.5,0.999</bounds>
+    </param>
+    <param name="specificity" production-type="Sheep/Goats" type="range">
+      <bounds>0.5,0.98</bounds>
+    </param>
+    <param name="specificity" production-type="Wildlife" type="range">
+      <bounds>0.5,0.99</bounds>
+    </param>
+    <!-- Delay for test result (days) -->
+    <param name="test delay" production-type="Cattle" type="distribution">
+      <bounds>0,7</bounds>
+      <mean>1,1</mean>
+      <variance>0.142857,0.142857</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="test delay" production-type="Feedlot" type="distribution">
+      <bounds>0,7</bounds>
+      <mean>1,1</mean>
+      <variance>0.142857,0.142857</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="test delay" production-type="Market" type="distribution">
+      <bounds>0,7</bounds>
+      <mean>1,1</mean>
+      <variance>0.142857,0.142857</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="test delay" production-type="Other" type="distribution">
+      <bounds>0,7</bounds>
+      <mean>1,1</mean>
+      <variance>0.142857,0.142857</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="test delay" production-type="Pigs" type="distribution">
+      <bounds>0,7</bounds>
+      <mean>1,1</mean>
+      <variance>0.142857,0.142857</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="test delay" production-type="Sheep/Goats" type="distribution">
+      <bounds>0,7</bounds>
+      <mean>1,1</mean>
+      <variance>0.142857,0.142857</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <param name="test delay" production-type="Wildlife" type="distribution">
+      <bounds>0,7</bounds>
+      <mean>1,1</mean>
+      <variance>0.142857,0.142857</variance>
+      <skewness>0,0</skewness>
+    </param>
+    <!-- Delay to begin a destruction program (days) -->
+    <param name="destruction program delay" type="range">
+      <bounds>0,5</bounds>
+    </param>
+    <!-- Destruction capacity -->
+    <param name="destruction capacity" type="chart">
+      <xBounds>0,100</xBounds>
+      <yBounds>0,100000</yBounds>
+    </param>
+    <!-- Radius of destruction ring (km, sorted by type of farm at center of ring) -->
+    <param name="destruction radius" production-type="Cattle" type="range">
+      <bounds>0.2,3</bounds>
+    </param>
+    <param name="destruction radius" production-type="Feedlot" type="range">
+      <bounds>1,1</bounds>
+    </param>
+    <param name="destruction radius" production-type="Market" type="range">
+      <bounds>1,1</bounds>
+    </param>
+    <param name="destruction radius" production-type="Other" type="range">
+      <bounds>0.2,3</bounds>
+    </param>
+    <param name="destruction radius" production-type="Pigs" type="range">
+      <bounds>0.2,3</bounds>
+    </param>
+    <param name="destruction radius" production-type="Sheep/Goats" type="range">
+      <bounds>0.2,3</bounds>
+    </param>
+    <param name="destruction radius" production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <!-- Number of detected units before vaccination begins -->
+    <param name="vaccination program delay" type="range">
+      <bounds>1,100</bounds>
+    </param>
+    <!-- Vaccination capacity -->
+    <param name="vaccination capacity" type="chart">
+      <xBounds>0,99</xBounds>
+      <yBounds>0,1500</yBounds>
+    </param>
+    <!-- Radius of vaccination ring (km, sorted by type of farm at center of ring) -->
+    <param name="vaccination radius" production-type="Cattle" type="range">
+      <bounds>3,250</bounds>
+    </param>
+    <param name="vaccination radius" production-type="Feedlot" type="range">
+      <bounds>10,50</bounds>
+    </param>
+    <param name="vaccination radius" production-type="Market" type="range">
+      <bounds>10,10</bounds>
+    </param>
+    <param name="vaccination radius" production-type="Other" type="range">
+      <bounds>3,10</bounds>
+    </param>
+    <param name="vaccination radius" production-type="Pigs" type="range">
+      <bounds>3,250</bounds>
+    </param>
+    <param name="vaccination radius" production-type="Sheep/Goats" type="range">
+      <bounds>3,250</bounds>
+    </param>
+    <param name="vaccination radius" production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <!-- Minimum time between vaccinations -->
+    <param name="min time between vaccinations" production-type="Cattle" type="range">
+      <bounds>30,183</bounds>
+    </param>
+    <param name="min time between vaccinations" production-type="Feedlot" type="range">
+      <bounds>30,180</bounds>
+    </param>
+    <param name="min time between vaccinations" production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param name="min time between vaccinations" production-type="Other" type="range">
+      <bounds>31,10000</bounds>
+    </param>
+    <param name="min time between vaccinations" production-type="Pigs" type="range">
+      <bounds>30,180</bounds>
+    </param>
+    <param name="min time between vaccinations" production-type="Sheep/Goats" type="range">
+      <bounds>30,31</bounds>
+    </param>
+    <param name="min time between vaccinations" production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <!-- Delay to produce vaccine immunity (days) -->
+    <param name="vaccine delay" production-type="Cattle" type="range">
+      <bounds>0,9</bounds>
+    </param>
+    <param name="vaccine delay" production-type="Feedlot" type="range">
+      <bounds>4,7</bounds>
+    </param>
+    <param name="vaccine delay" production-type="Market" type="range">
+      <bounds/>
+    </param>
+    <param name="vaccine delay" production-type="Other" type="range">
+      <bounds>5,7</bounds>
+    </param>
+    <param name="vaccine delay" production-type="Pigs" type="range">
+      <bounds>4,14</bounds>
+    </param>
+    <param name="vaccine delay" production-type="Sheep/Goats" type="range">
+      <bounds>4,7</bounds>
+    </param>
+    <param name="vaccine delay" production-type="Wildlife" type="range">
+      <bounds/>
+    </param>
+    <!-- Vaccine immunity period (days) -->
+    <param name="vaccine immunity" production-type="Cattle" type="distribution">
+      <bounds>0,1000</bounds>
+      <mean>97.5,1000</mean>
+      <variance>0,1117.46</variance>
+      <skewness>-1.72713,0.301511</skewness>
+    </param>
+    <param name="vaccine immunity" production-type="Feedlot" type="distribution">
+      <bounds>28,220</bounds>
+      <mean>97.5,161.333</mean>
+      <variance>618.75,1117.46</variance>
+      <skewness>-0.558407,0.301511</skewness>
+    </param>
+    <param name="vaccine immunity" production-type="Market" type="distribution"/>
+    <param name="vaccine immunity" production-type="Other" type="distribution">
+      <bounds>28,1000</bounds>
+      <mean>161.333,1000</mean>
+      <variance>0,1117.46</variance>
+      <skewness>-0.558407,0</skewness>
+    </param>
+    <param name="vaccine immunity" production-type="Pigs" type="distribution">
+      <bounds>28,220</bounds>
+      <mean>97.5,161.333</mean>
+      <variance>618.75,1117.46</variance>
+      <skewness>-0.558407,0.301511</skewness>
+    </param>
+    <param name="vaccine immunity" production-type="Sheep/Goats" type="distribution">
+      <bounds>28,1000</bounds>
+      <mean>97.5,1000</mean>
+      <variance>0,1117.46</variance>
+      <skewness>-0.558407,0.301511</skewness>
+    </param>
+    <param name="vaccine immunity" production-type="Wildlife" type="distribution"/>
+    <!-- Number of zones -->
+    <param name="zones" type="range">
+      <bounds>0,3</bounds>
+    </param>
+    <!-- Radius of zone -->
+    <param name="zone radius" type="range">
+      <bounds>3,80</bounds>
+    </param>
+  </parameters>
+</parameterRanges>

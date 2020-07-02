@@ -1,0 +1,42 @@
+<setting>  
+	<paramName_mapping>
+		<map  exp= '.*airborne direction.*'  	    		returnedName= 'ar'/>		
+		<map  exp= '.*airborne span.*'  	        	returnedName= 'as'/>	
+		<map  exp= '.*\bclinical.*'  	    			returnedName= 'ic'/>		
+		<map  exp= '.*destruction capacity.*' 			returnedName= 'dc'/>		
+		<map  exp= '.*destruction program delay.*' 		returnedName= 'de'/>	
+		<map  exp= '.*detection.*' 				returnedName= 'os'/>				
+		<map  exp= '.*immune.*'		 			returnedName= 'ni'/>	
+		<map  exp= '.*latent.*' 				returnedName= 'lp'/>	
+		<map  exp= '.*max spread.*'				returnedName= 'ad'/>	
+		<map  exp= '.*min time between vaccinations.*'		returnedName= 'vm'/>	
+		<map  exp= '.*prob spread 1km.*'	    		returnedName= 'ap'/>	
+		<map  exp= '.*reporting.*'	    			returnedName= 'rp'/>	
+		<map  exp= '.*sensitivity.*'	    			returnedName= 'sn'/>	
+		<map  exp= '.*specificity.*'	    			returnedName= 'sp'/>	
+		<map  exp= '.*subclinical.*' 				returnedName= 'is'/>	
+		<map  exp= '.*test delay.*' 				returnedName= 'sd'/>	
+		<map  exp= '.*\bvaccination capacity\b.*' 		returnedName= 'vc'/>	
+		<map  exp= '.*\bvaccination program delay\b.*' 		returnedName= 'vd'/>					
+		<map  exp= '.*vaccination radius.*'			returnedName= 'vr'/>		
+		<map  exp= '.*vaccine delay.*' 				returnedName= 'vy'/>		
+		<map  exp= '.*vaccine immunity.*' 			returnedName= 'vi'/>		
+		<map  exp= '.*whp.*' 					returnedName= 'pv'/>		
+		<map  exp= '.*\bzone detection multiplier\b.*' 		returnedName= 'zm'/>		
+		<map  exp= '.*zone radius\b.*' 				returnedName= 'zr'/>		
+		<map  exp= '.*direct distance.*'			returnedName= 'dd'/>
+		<map  exp= '.*direct movement.*'			returnedName= 'dm'/>
+		<map  exp= '.*direct rate.*'				returnedName= 'dr'/>
+		<map  exp= '.*direct trace period.*'			returnedName= 'ti'/>
+		<map  exp= '.*direct trace success.*'			returnedName= 'ts'/>
+		<map  exp= '.*direct trace delay.*'			returnedName= 'dt'/>
+		<map  exp= '.*direct prob infect.*'			returnedName= 'di'/>
+		<map  exp= '.*indirect distance.*'			returnedName= 'id'/>
+		<map  exp= '.*indirect movement.*'			returnedName= 'im'/>
+		<map  exp= '.*indirect prob infect.*'			returnedName= 'ii'/>
+		<map  exp= '.*indirect rate.*'				returnedName= 'ir'/>
+		<map  exp= '.*indirect trace delay.*'			returnedName= 'td'/>
+		<map  exp= '.*indirect trace period.*'			returnedName= 'tj'/>
+		<map  exp= '.*indirect trace success.*'			returnedName= 'tt'/>
+	</paramName_mapping>													
+</setting> 

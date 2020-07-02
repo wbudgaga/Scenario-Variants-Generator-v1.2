@@ -1,0 +1,1798 @@
+<parameterRanges> 
+ <parameters>
+   <param name="latent" type="distribution" production-type="company feedlot">
+		<bounds>0,9.3631</bounds>
+		<mean>1.98418,4.1</mean>
+		<variance>1.21,4.20754</variance>
+		<skewness>-0.235034,1.16052</skewness>
+	</param>
+  <param name="subclinical" type="distribution" production-type="company feedlot">
+		<bounds>0.5,2.52028</bounds>
+		<mean>1.03257,2.2</mean>
+		<variance>0.21769,3.4162</variance>
+		<skewness>0,7.14775</skewness>
+	</param>
+  <param name="clinical" type="distribution" production-type="company feedlot">
+		<bounds>0.0,8.52028</bounds>
+		<mean>0.22002,32.493</mean>
+		<variance>8.86869e-06,49.2857</variance>
+		<skewness>-0.284885,0.709272 </skewness>
+	</param>
+	<param name="immune" type="distribution" production-type="all cattle">
+		<bounds>180,1558.65</bounds>
+		<mean>230,1095</mean>
+		<variance>350,32400</variance>
+		<skewness>-0.305441,0.00359046</skewness>
+	</param>
+  <param name="WHP" type="chart" production-type="company feedlot">
+		<xBounds>0.0,42.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+  <param name="latent" type="distribution" production-type="stockholder feedlot">
+		<bounds>0,9.3631</bounds>
+		<mean>1.98418,4.1</mean>
+		<variance>1.21,4.20754</variance>
+		<skewness>-0.235034,1.16052</skewness>
+	</param>
+  <param name="subclinical" type="distribution" production-type="stockholder feedlot">
+		<bounds>0.5,2.52028</bounds><!--orginal: 0,8.52028-->
+		<mean>1.03257,2.2</mean>
+		<variance>0.21769,3.4162</variance>
+		<skewness>0,7.14775</skewness>
+	</param>
+  <param name="clinical" type="distribution" production-type="stockholder feedlot">
+  		<bounds>0.213,0.228</bounds><!-- orginal: 0,506.88-->
+		<mean> 0.22002,32.493</mean>
+		<variance>8.86869e-06,49.2857</variance>
+		<skewness>-0.284885,0.709272</skewness>
+	</param>
+   <param name="WHP" type="chart" production-type="stockholder feedlot">
+		<xBounds>0.0,42.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+  <param name="latent" type="distribution" production-type="custom feedlot">
+		<bounds>0,9.3631</bounds>
+		<mean>1.98418,4.1</mean>
+		<variance>1.21,4.20754</variance>
+		<skewness>-0.235034,1.16052</skewness>
+	</param>
+  <param name="subclinical" type="distribution" production-type="custom feedlot">
+		<bounds>0.316,2.92</bounds><!-- orginal: 0,506.88-->
+		<mean>1.03257,2.2</mean>
+		<variance>0.21769,3.4162</variance>
+		<skewness>0,7.14775</skewness>
+	</param>
+  <param name="clinical" type="distribution" production-type="custom feedlot">
+		<bounds>0.213,0.228</bounds><!-- orginal: 0,506.88-->
+		<mean> 0.22002,32.493</mean>
+		<variance>8.86869e-06,49.2857</variance>
+		<skewness>-0.284885,0.709272</skewness>
+	</param>
+  <param name="WHP" type="chart" production-type="custom feedlot">
+		<xBounds>0.0,42.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="latent" type="distribution" production-type="yearling-pasture feedlot">
+		<bounds>0,9.3631</bounds>
+		<mean>1.98418,4.1</mean>
+		<variance>1.21,4.20754</variance>
+		<skewness>-0.235034,1.16052</skewness>
+	</param>
+  <param name="subclinical" type="distribution" production-type="yearling-pasture feedlot">
+		<bounds>0.5,2.52028</bounds><!--orginal: 0,8.52028-->
+		<mean>1.03257,2.2</mean>
+		<variance>0.21769,3.4162</variance>
+		<skewness>0,7.14775</skewness>
+	</param>
+  <param name="clinical" type="distribution" production-type="yearling-pasture feedlot">
+		<bounds>0,506.88</bounds>
+		<mean> 0.22002,32.493</mean>
+		<variance>8.86869e-06,49.2857</variance>
+		<skewness>-0.284885,0.709272</skewness>
+	</param>
+   <param name="WHP" type="chart" production-type="yearling pasture">
+		<xBounds>0.0,42.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	
+  <param name="latent" type="distribution" production-type="large dairy">
+		<bounds>-0.5,17.5</bounds>
+		<mean>1.21673,6.33333</mean>
+		<variance>0.64,7.79144</variance>
+		<skewness>-0.235034,3.06472</skewness>
+	</param>
+  <param name="subclinical" type="distribution" production-type="large dairy">
+		<bounds>-1.14905,8.52028</bounds>
+		<mean>0,2.6</mean>
+		<variance>0,3.4162</variance>
+		<skewness>-8.23038e-13,30.1152</skewness>
+	</param>
+  <param name="WHP" type="chart" production-type="large dairy">
+		<xBounds>0.0,42.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>	
+  <param name="latent" type="distribution" production-type="small dairy">
+		<bounds>-0.5,17.5</bounds>
+		<mean>1.21673,6.33333</mean>
+		<variance>0.64,7.79144</variance>
+		<skewness>-0.235034,3.06472</skewness>
+	</param>
+  <param name="subclinical" type="distribution" production-type="small dairy">
+		<bounds>-1.14905,8.52028</bounds>
+		<mean>0,2.6</mean>
+		<variance>0,3.4162</variance>
+		<skewness>-8.23038e-13,30.1152</skewness>
+	</param>
+	<param name="clinical" type="distribution" production-type="small dairy">
+		<bounds>0,93.75</bounds>
+		<mean>13.1505,35.0</mean>
+		<variance>1.73413,177.551</variance>
+		<skewness>-0.267498,17.8885</skewness>
+	</param>
+  <param name="WHP" type="chart" production-type="small dairy">
+		<xBounds>0.0,42.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>	
+  <param name="latent" type="distribution" production-type="large dairy">
+		<bounds>-0.5,17.5</bounds>
+		<mean>1.21673,6.33333</mean>
+		<variance>0.64,7.79144</variance>
+		<skewness>-0.235034,3.06472</skewness>
+  </param>		
+	<param name="subclinical" type="distribution" production-type="large dairy">
+		<bounds>-1.14905,8.52028</bounds>
+		<mean>0,2.6</mean>
+		<variance>0,3.4162</variance>
+		<skewness>-8.23038e-13,30.1152</skewness>
+	</param>
+	<param name="clinical" type="distribution" production-type="large dairy">
+		<bounds>0,93.75</bounds>
+		<mean>13.1505,35.0</mean>
+		<variance>1.73413,177.551</variance>
+		<skewness>-0.267498,17.8885</skewness>
+	</param>
+
+  <param name="latent" type="distribution" production-type="large CC">
+		<bounds>-0.5,17.5</bounds>
+		<mean>1.21673,6.33333</mean>
+		<variance>0.64,7.79144</variance>
+		<skewness>-0.235034,3.06472</skewness>
+	</param>
+	<param name="subclinical" type="distribution" production-type="large CC">
+		<bounds>-1.14905,8.52028</bounds>
+		<mean>0,2.6</mean>
+		<variance>0,3.4162</variance>
+		<skewness>-8.23038e-13,30.1152</skewness>
+	</param>
+	<param name="clinical" type="distribution" production-type="large CC">
+		<bounds>0,93.75</bounds>
+		<mean>13.1505,35.0</mean>
+		<variance>1.73413,177.551</variance>
+		<skewness>-0.267498,17.8885</skewness>
+	</param>
+	<param name="WHP" type="chart" production-type="large CC">
+		<xBounds>0.0,42.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>	
+
+  <param name="latent" type="distribution" production-type="small CC">
+		<bounds>-0.5,17.5</bounds>
+		<mean>1.21673,6.33333</mean>
+		<variance>0.64,7.79144</variance>
+		<skewness>-0.235034,3.06472</skewness>
+	</param>	
+	<param name="subclinical" type="distribution" production-type="small CC">
+		<bounds>-1.14905,8.52028</bounds>
+		<mean>0,2.6</mean>
+		<variance>0,3.4162</variance>
+		<skewness>-8.23038e-13,30.1152</skewness>
+	</param>
+	<param name="clinical" type="distribution" production-type="small CC">
+		<bounds>0,93.75</bounds>
+		<mean>13.1505,35.0</mean>
+		<variance>1.73413,177.551</variance>
+		<skewness>-0.267498,17.8885</skewness>
+	</param>
+  <param name="WHP" type="chart" production-type="small CC">
+		<xBounds>0.0,42.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>	
+ 	<param name="latent" type="distribution" production-type="stocker">
+		<bounds>-0.5,17.5</bounds>
+		<mean>0,6.33333</mean>
+		<variance>0,7.79144</variance>
+		<skewness>-0.235034,1.57281</skewness>
+	</param>
+	<param name="subclinical" type="distribution" production-type="stocker">
+		<bounds>-0.806114,9.99512</bounds>
+		<mean>0,2.6</mean>
+		<variance>0,3.99573</variance>
+		<skewness>0,2.6073 </skewness>
+	</param>
+	<param name="clinical" type="distribution" production-type="stocker">
+		<bounds>0.0,60.131</bounds>
+		<mean>0.0,35.0</mean>
+		<variance>0.0,177.551</variance>
+		<skewness>-0.267498,0.484896</skewness>
+	</param>
+  <param name="WHP" type="chart" production-type="stocker">
+		<xBounds>0.0,53.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+
+	<param name="latent" type="distribution" production-type="small ruminant">
+		<bounds>-0.5,17.5</bounds>
+		<mean>0.621799,6.33333</mean>
+		<variance>0.00255541,7.79144</variance>
+		<skewness> -0.171956,0.817965</skewness>
+	</param>
+	<param name="subclinical" type="distribution" production-type="small ruminant">
+		<bounds>-1.26374,6.46374</bounds>
+		<mean>0,2.6</mean>
+		<variance>0,2.25</variance>
+		<skewness>0,30.3194</skewness>
+	</param>
+	<param name="clinical" type="distribution" production-type="small ruminant">
+		<bounds>0,60.131</bounds>
+		<mean>10.5,35</mean>
+		<variance>4.16667,177.551</variance>
+		<skewness>-0.338098,0.492448 </skewness>
+	</param>
+	<param name="WHP" type="chart" production-type="Small Ruminants">
+		<xBounds>0.0,38.333</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+  <param name="immune" type="distribution" production-type="small ruminant">
+		<bounds>180,1161.82</bounds>
+		<mean>230,930</mean>
+		<variance>350,8100</variance>
+		<skewness>-0.305441,0.00359046 </skewness>
+	</param>
+
+	<param name="latent" type="distribution" production-type="large swine">
+		<bounds>-0.5,17.5</bounds>
+		<mean>1.2,6.33333</mean>
+		<variance>0.25,13.1554</variance>
+		<skewness>0,1.57281</skewness>
+	</param>
+	<param name="subclinical" type="distribution" production-type="large swine">
+		<bounds>-0.703081,9.99512</bounds>
+		<mean>0,4.3</mean>
+		<variance>0,3.99573</variance>
+		<skewness>0,2.6073</skewness>
+	</param>
+  <param name="clinical" type="distribution" production-type="large swine">
+		<bounds>0,59</bounds>
+		<mean>9,36.7899</mean>
+		<variance>0.876984,85.7341</variance>
+		<skewness>-0.301511,3.972</skewness>
+	</param>
+	<param name="WHP" type="chart" production-type="large swine">
+		<xBounds>0.0,53.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+
+	
+  <param name="latent" type="distribution" production-type="small swine">
+		<bounds>-0.5,17.5</bounds>
+		<mean>1.2,6.33333</mean>
+		<variance>0.25,13.1554</variance>
+		<skewness>0,1.57281</skewness>
+	</param>
+  <param name="subclinical" type="distribution" production-type="small swine">
+		<bounds>-0.703081,9.99512</bounds>
+		<mean>0,4.3</mean>
+		<variance>0,3.99573</variance>
+		<skewness>0,2.6073</skewness>
+	</param>
+	<param name="clinical" type="distribution" production-type="small swine">
+		<bounds>0,59</bounds>
+		<mean>9,36.7899</mean>
+		<variance>0.876984,85.7341</variance>
+		<skewness>-0.301511,3.972</skewness>
+	</param>
+  <param name="immune" type="distribution" production-type="all swine">
+		<bounds>0,1336.86</bounds>
+		<mean>180.879,272.485</mean>
+		<variance>350,42913</variance>
+		<skewness>-0.305441,0.00359046</skewness>
+	</param>
+	<param name="WHP" type="chart" production-type="small swine">
+		<xBounds>0.0,53.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+
+	<param name="indirect distance" type="distribution" production-type="all beef">
+		<bounds>0,2699.69</bounds>
+		<mean>6,180.045</mean>
+		<variance>30.0198,60309.8</variance>
+		<skewness> -0.0493396,2.07644</skewness>
+	</param>
+	
+  <param name="No baseline movement control" type="chart">
+		<xBounds>0.0,100.0</xBounds>
+		<yBounds>0.05,1 </yBounds>
+	</param>
+	<param name="direct distance" type="distribution" production-type="yearling-pasture">
+		<bounds>0,3448.61</bounds>
+		<mean>70.4699,366.667</mean>
+		<variance>-50773.2,1.32632e+06</variance>
+		<skewness>-0.0316944,4.95116</skewness>
+	</param>
+  <param name="direct distance" type="distribution" production-type="all dairy">
+		<bounds>0,3448.61</bounds>
+		<mean>35.1667,280.83</mean>
+		<variance>-50773.2,1.32632e+06</variance>
+		<skewness>-0.180591,4.95116 </skewness>
+	</param>
+	  <param name="indirect distance" type="distribution" production-type="dairy">
+		<bounds>0,2699.69</bounds>
+		<mean>6,180.045</mean>
+		<variance>30.0198,60309.8</variance>
+		<skewness>-0.0493396,2.07644 </skewness>
+	</param>
+  <param name="indirect distance" type="distribution" production-type="swine">
+		<bounds>0,1169.75</bounds>
+		<mean> 6,212.102</mean>
+		<variance>30.0198,39746.7</variance>
+		<skewness>0.030419,2.64661</skewness>
+	</param>
+  <param name="direct distance" type="distribution" production-type="swine">
+		<bounds> 0,1500</bounds>
+		<mean>7.79429,283.5</mean>
+		<variance>65.8633,49094.5</variance>
+		<skewness>-0.333314,2.50588</skewness>
+	</param>
+	<param name="direct distance" type="distribution" production-type="large CC">
+		<bounds>0,3448.61</bounds>
+		<mean>35.1667,280.83</mean>
+		<variance>50773.2,1.32632e+06</variance>
+		<skewness>-0.180591,4.95116 </skewness>
+	</param>
+	<param name="direct distance" type="distribution" production-type="small CC">
+		<bounds>0,3448.61</bounds>
+		<mean>35.1667,280.83</mean>
+		<variance>50773.2,1.32632e+06</variance>
+		<skewness>-0.180591,4.95116 </skewness>
+	</param>
+	<param name="direct distance" type="distribution" production-type="stocker">
+		<bounds>0,862.16</bounds>
+		<mean>70.4699,387</mean>
+		<variance>50773.2,22333.1</variance>
+		<skewness>0.0736068,0.499462</skewness>
+	</param>
+  <param name="direct distance" type="distribution" production-type="small ruminant">
+		<bounds>3,129</bounds>
+		<mean>41.3333,41.3333</mean>
+		<variance>480.079,480.079</variance>
+		<skewness>0.562891,0.562891</skewness>
+	</param>
+	<param name="destruct: 10 team 5 days/team" type="chart">
+		<xBounds>0.0,100.0</xBounds>
+		<yBounds> 0.0,100000.0</yBounds>
+	</param>
+		<param name="TX vaccine capacity" type="chart">
+		<xBounds>0.0,99.0</xBounds>
+		<yBounds> 0.0,10000.0</yBounds>
+	</param>
+	
+	<param name="observe signs" type="chart" production-type="company feedlot">
+		<xBounds>0.0,14.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="stockholder">
+		<xBounds>0.0,14.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="custom feedlot">
+		<xBounds>0.0,14.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+
+	<param name="reporting" type="chart" production-type="company feedlot">
+		<xBounds>0.0,14.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="stockholder feedlot">
+		<xBounds>0.0,14.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="custom feedlot">
+		<xBounds>0.0,14.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="yearling-pasture">
+		<xBounds>0.0,14.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="large dairy">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="small dairy">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="large swine">
+		<xBounds>0.0,22.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="small swine">
+		<xBounds>0.0,22.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="large CC">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="small CC">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="stocker">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.003445,1 </yBounds>
+	</param>
+	<param name="reporting" type="chart" production-type="small ruminant">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="yearling-pasture">
+		<xBounds>0.0,14.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="large dairy">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="small dairy">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="large swine">
+		<xBounds>0.0,22.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="small swine">
+		<xBounds>0.0,22.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="large CC">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="small cc">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="stocker">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.003445,1</yBounds>
+	</param>
+	<param name="observe signs" type="chart" production-type="small ruminant">
+		<xBounds>0.0,34.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	
+  <param name="trace delay" type="distribution" production-type="feedlot">
+		<bounds>0,14</bounds>
+		<mean>0,7.25333</mean>
+		<variance>0,6.99083</variance>
+		<skewness>-0.0479069,0</skewness>
+	</param>
+	<param name="trace delay" type="distribution" production-type="dairy">
+		<bounds>0,14</bounds>
+		<mean>0,6.31333</mean>
+		<variance>0,6.93264</variance>
+		<skewness>0,0.448297</skewness>
+	</param>
+   <param name="trace delay" type="distribution" production-type="swine">
+		<bounds>0,14</bounds>
+		<mean>0,6</mean>
+		<variance>0,6.31693</variance>
+		<skewness>0,0.43501</skewness>
+	</param>
+ 	<param name="trace delay" type="distribution" production-type="cow-calf">
+		<bounds>0,14</bounds>
+		<mean>0,6.31333</mean>
+		<variance>0,6.93264</variance>
+		<skewness>0,0.448297</skewness>
+	</param>
+ 	<param name="trace delay" type="distribution" production-type="small ruminant">
+		<bounds>0,14</bounds>
+		<mean>0,6.04667</mean>
+		<variance>0,6.87017</variance>
+		<skewness>-6.09272e-13,0.301511 </skewness>
+	</param>
+ 	<param name="test results delay" type="distribution">
+		<bounds>0,2</bounds>
+		<mean>1.0,1.0</mean>
+		<variance>0.142857,0.142857</variance>
+		<skewness>0.0,0.0</skewness>
+	</param>
+
+	<param name="vaccine immune period" type="distribution">
+		<bounds>28,220</bounds>
+		<mean>97.5,161.333</mean>
+		<variance>618.75,1117.46</variance>
+		<skewness>-0.558407,0.301511</skewness>
+	</param>
+
+	<param name="control zone direct movement" type="chart">
+		<xBounds>0.0,7.0</xBounds>
+		<yBounds> 0.0,1.0</yBounds>
+	</param>
+	<param name="control zone indirect movement" type="chart">
+		<xBounds>0.0,7.0</xBounds>
+		<yBounds>0.03,1</yBounds>
+	</param>
+	
+	<param name="fixed-movement-rate" type="range">
+		<bounds>0.054,8.7899</bounds>
+	</param>
+	<param name="movement-rate" type="range">
+		<bounds>0.054,8.7899</bounds>
+	</param>
+	
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="sm ruminants">
+		<bounds>0.0034336,0.02 </bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="sm ruminants">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="stocker">
+		<bounds>0.004292,0.02 </bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="stocker">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="cowcalf(S)">
+		<bounds>0.004292,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="cowcalf(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="cowcalf(L)">
+		<bounds>0.004292,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="cowcalf(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="dairy(L)">
+		<bounds>0.004292,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="dairy(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="dairy(S)">
+		<bounds>0.004292,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="dairy(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="swine(L)">
+		<bounds>0.003004,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="swine(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="swine(S)">
+		<bounds>0.003004,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="swine(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="yearling-pasture feedlot">
+		<bounds>0.005,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="custom feedlot">
+		<bounds>0.005,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="stockholder feedlot">
+		<bounds>0.005,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="sm ruminants" to-production-type="company feedlot">
+		<bounds>0.005,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="sm ruminants" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="sm ruminants">
+		<bounds>0.0038628,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="sm ruminants">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="stocker">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="stocker">
+		<bounds>2.83106,3</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="cowcalf(S)">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="cowcalf(L)">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="dairy(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="dairy(L)">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="dairy(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="dairy(S)">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="swine(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="swine(L)">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="swine(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="swine(S)">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="custom feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stocker" to-production-type="company feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stocker" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	
+ 	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="sm ruminants">
+		<bounds>0.004292,0.02 </bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="sm ruminants">
+		<bounds>2.83106,6 </bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="stocker">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="stocker">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="cowcalf(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="cowcalf(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="dairy(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="dairy(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="dairy(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="dairy(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="swine(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="swine(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="swine(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="swine(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="custom feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(S)" to-production-type="company feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(S)" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>	
+ 	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="sm ruminants">
+		<bounds>0.004292,0.02 </bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="sm ruminants">
+		<bounds>2.83106,6 </bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="stocker">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="stocker">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="cowcalf(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="cowcalf(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="dairy(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="dairy(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="dairy(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="dairy(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="swine(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="swine(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="swine(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="swine(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="custom feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="cowcalf(L)" to-production-type="company feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="cowcalf(L)" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+ 	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="sm ruminants">
+		<bounds>0.004292,0.02 </bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="sm ruminants">
+		<bounds>2.83106,6 </bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="stocker">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="stocker">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="cowcalf(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="cowcalf(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="dairy(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="dairy(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="dairy(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="dairy(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="swine(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="swine(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="swine(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="swine(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="custom feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(S)" to-production-type="company feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(S)" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+ 	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="sm ruminants">
+		<bounds>0.004292,0.02 </bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="sm ruminants">
+		<bounds>2.83106,6 </bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="stocker">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="stocker">
+		<bounds>2.83106,3.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="cowcalf(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="cowcalf(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="dairy(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="dairy(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="dairy(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="dairy(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="swine(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="swine(L)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="swine(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="swine(S)">
+		<bounds>2.83106,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="custom feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="dairy(L)" to-production-type="company feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="dairy(L)" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+ 	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="sm ruminants">
+		<bounds>0.005,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="sm ruminants">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="stocker">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="stocker">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="cowcalf(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="cowcalf(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="dairy(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="dairy(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="dairy(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="dairy(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="swine(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="swine(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="swine(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="swine(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="custom feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="yearling-pasture feedlot" to-production-type="company feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="yearling-pasture feedlot" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+ 	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="sm ruminants">
+		<bounds>0.005,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="sm ruminants">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="stocker">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="stocker">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="cowcalf(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="cowcalf(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="dairy(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="dairy(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="dairy(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="dairy(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="swine(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="swine(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="swine(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="swine(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="custom feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="company feedlot" to-production-type="company feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="company feedlot" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+ 	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="sm ruminants">
+		<bounds>0.005,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="sm ruminants">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="stocker">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="stocker">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="cowcalf(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="cowcalf(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="dairy(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="dairy(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="dairy(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="dairy(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="swine(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="swine(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="swine(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="swine(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="custom feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="custom feedlot" to-production-type="company feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="custom feedlot" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+ 	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="sm ruminants">
+		<bounds>0.005,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="sm ruminants">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="stocker">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="stocker">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="cowcalf(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="cowcalf(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="dairy(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="dairy(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="dairy(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="dairy(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="swine(L)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="swine(L)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="swine(S)">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="swine(S)">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="custom feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="stockholder feedlot" to-production-type="company feedlot">
+		<bounds>1e-06,0.01</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="stockholder feedlot" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	
+ 	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="sm ruminants">
+		<bounds>0.00329,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="sm ruminants">
+		<bounds>3.0,7.21806 </bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="stocker">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="stocker">
+		<bounds>3.0,0.82733 </bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="cowcalf(S)">
+		<bounds>3.0,8.08664 </bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="cowcalf(L)">
+		<bounds>3.0,8.08664</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="dairy(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="dairy(L)">
+		<bounds>3.0,8.08664</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="dairy(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="dairy(S)">
+		<bounds>3.0,8.08664</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="swine(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="swine(L)">
+		<bounds>3.0,6.99426</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="swine(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="swine(S)">
+		<bounds>3.0,6.99426</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="custom feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(L)" to-production-type="company feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(L)" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	
+	
+ 	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="sm ruminants">
+		<bounds>0.00329,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="sm ruminants">
+		<bounds>3.0,7.21806 </bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="stocker">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="stocker">
+		<bounds>3.0,0.82733 </bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="cowcalf(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="cowcalf(S)">
+		<bounds>3.0,8.08664 </bounds>
+	</param>
+		<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="cowcalf(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="cowcalf(L)">
+		<bounds>3.0,8.08664</bounds>
+	</param>
+
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="dairy(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="dairy(L)">
+		<bounds>3.0,8.08664</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="dairy(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="dairy(S)">
+		<bounds>3.0,8.08664</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="swine(L)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="swine(L)">
+		<bounds>3.0,6.99426</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="swine(S)">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="swine(S)">
+		<bounds>3.0,6.99426</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="yearling-pasture feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="yearling-pasture feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="custom feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="custom feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="stockholder feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="stockholder feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	<param name="prob-spread-1km" type="range" from-production-type="swine(S)" to-production-type="company feedlot">
+		<bounds>1e-06,0.02</bounds>
+	</param>
+	<param name="max-spread" type="range" from-production-type="swine(S)" to-production-type="company feedlot">
+		<bounds>3.0,6.0</bounds>
+	</param>
+	
+	
+	
+	
+	<param name="destruction-program-delay" type="range">
+		<bounds>0.0,5.0 </bounds>
+	</param>
+	<param name="vaccination-program-delay" type="range">
+		<bounds>1.0,100.0 </bounds>
+	</param>
+	
+	<param name="zone-prob-multiplier" type="range" production-type="dairy(L)">
+		<bounds>1.0,19.0 </bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="dairy(S)">
+		<bounds>1.0,19.0 </bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="cowcalf(L)">
+		<bounds>1.0,19.0 </bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="cowcalf(S)">
+		<bounds>1.0,19.0 </bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="stocker">
+		<bounds>1.091,4.75</bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="sm ruminants">
+		<bounds>1,15.2</bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="swine(L)">
+		<bounds>1.0,2.0 </bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="swine(S)">
+		<bounds>1.0,2.0 </bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="company feedlot">
+		<bounds>1,4.47 </bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="stockholder feedlot">
+		<bounds>1,4.47 </bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="custom feedlot">
+		<bounds>1,4.47 </bounds>
+	</param>
+	<param name="zone-prob-multiplier" type="range" production-type="yearling-pasture feedlot">
+		<bounds>1,4.47 </bounds>
+	</param>
+
+	<param name="indirect trace-period" type="range" production-type="dairy(L)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="dairy(S)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="cowcalf(L)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="cowcalf(S)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="stocker">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="sm ruminants">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="swine(L)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="swine(S)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="company feedlot">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="stockholder feedlot">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="custom feedlot">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="indirect trace-period" type="range" production-type="yearling-pasture feedlot">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="dairy(L)">
+		<bounds>0.35,0.9</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="dairy(S)">
+		<bounds>0.35,0.9</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="cowcalf(L)">
+		<bounds>0.35,0.9</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="cowcalf(S)">
+		<bounds>0.35,0.9</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="stocker">
+		<bounds>0.5,0.9</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="sm ruminants">
+		<bounds>0.25,0.9</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="swine(L)">
+		<bounds>0.36,0.9</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="swine(S)">
+		<bounds>0.36,0.9</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="company feedlot">
+		<bounds>0.35,0.75</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="stockholder feedlot">
+		<bounds>0.35,0.75</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="custom feedlot">
+		<bounds>0.35,0.75</bounds>
+	</param>
+	<param name="indirect trace-success" type="range" production-type="yearling-pasture feedlot">
+		<bounds>0.35,0.75</bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="dairy(L)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="dairy(S)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="cowcalf(L)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="cowcalf(S)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="stocker">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="sm ruminants">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="swine(L)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="swine(S)">
+		<bounds>14,28 </bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="company feedlot">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="stockholder feedlot">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="custom feedlot">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="direct trace-period" type="range" production-type="yearling-pasture feedlot">
+		<bounds>14,28</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="dairy(L)">
+		<bounds>0.5,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="dairy(S)">
+		<bounds>0.5,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="cowcalf(L)">
+		<bounds>0.5,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="cowcalf(S)">
+		<bounds>0.5,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="stocker">
+		<bounds>0.5,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="sm ruminants">
+		<bounds>0.5,0.95</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="swine(L)">
+		<bounds>0.5,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="swine(S)">
+		<bounds>0.5,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="company feedlot">
+		<bounds>0.65,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="stockholder feedlot">
+		<bounds>0.65,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="custom feedlot">
+		<bounds>0.65,1.0</bounds>
+	</param>
+	<param name="direct trace-success" type="range" production-type="yearling-pasture feedlot">
+		<bounds>0.65,1.0</bounds>
+	</param>
+	
+	<param name="sensitivity" type="range" production-type="dairy(L)">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="dairy(S)">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="cowcalf(L)">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="cowcalf(S)">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="stocker">
+		<bounds>0.85,1.0</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="sm ruminants">
+		<bounds>0.9,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="swine(L)">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="swine(S)">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="company feedlot">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="stockholder feedlot">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="custom feedlot">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="sensitivity" type="range" production-type="yearling-pasture feedlot">
+		<bounds>0.85,0.9</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="dairy(L)">
+		<bounds>0.98,0.999</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="dairy(S)">
+		<bounds>0.98,0.999</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="cowcalf(L)">
+		<bounds>0.98,0.999</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="cowcalf(S)">
+		<bounds>0.98,0.999</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="stocker">
+		<bounds>0.98,1.0</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="sm ruminants">
+		<bounds>0.98,0.98</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="swine(L)">
+		<bounds>0.98,0.999</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="swine(S)">
+		<bounds>0.98,0.999</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="company feedlot">
+		<bounds>0.98,0.999</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="stockholder feedlot">
+		<bounds>0.98,0.999</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="custom feedlot">
+		<bounds>0.98,0.999</bounds>
+	</param>
+	<param name="specificity" type="range" production-type="yearling-pasture feedlot">
+		<bounds>0.98,0.999</bounds>
+	</param>
+
+	<param name="min-time-between-vaccinations" type="range" production-type="dairy(L)">
+		<bounds>30,10000</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="dairy(S)">
+		<bounds>30,10000</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="cowcalf(L)">
+		<bounds>30,10000</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="cowcalf(S)">
+		<bounds>30,10000</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="stocker">
+		<bounds>31,10000</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="sm ruminants">
+		<bounds>30,31</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="swine(L)">
+		<bounds>30,180</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="swine(S)">
+		<bounds>30,180</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="company feedlot">
+		<bounds>30,180</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="stockholder feedlot">
+		<bounds>30,180</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="custom feedlot">
+		<bounds>30,180</bounds>
+	</param>
+	<param name="min-time-between-vaccinations" type="range" production-type="yearling-pasture feedlot">
+		<bounds>30,180</bounds>
+	</param>
+	
+	<param name="radius" type="range" production-type="dairy(L)">
+		<bounds>3,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="dairy(S)">
+		<bounds>3,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="cowcalf(L)">
+		<bounds>3,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="cowcalf(S)">
+		<bounds>3,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="stocker">
+		<bounds>3,10</bounds>
+	</param>
+	<param name="radius" type="range" production-type="sm ruminants">
+		<bounds>3,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="swine(L)">
+		<bounds>3,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="swine(S)">
+		<bounds>3,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="company feedlot">
+		<bounds>10,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="stockholder feedlot">
+		<bounds>10,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="custom feedlot">
+		<bounds>10,50</bounds>
+	</param>
+	<param name="radius" type="range" production-type="yearling-pasture feedlot">
+		<bounds>10,50</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="dairy(L)">
+		<bounds>0,9</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="dairy(S)">
+		<bounds>0,9</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="cowcalf(L)">
+		<bounds>0,9</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="cowcalf(S)">
+		<bounds>0,9</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="stocker">
+		<bounds>5,7</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="sm ruminants">
+		<bounds>5,7</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="swine(L)">
+		<bounds>7,14</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="swine(S)">
+		<bounds>7,14</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="company feedlot">
+		<bounds>4,7</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="stockholder feedlot">
+		<bounds>4,7</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="custom feedlot">
+		<bounds>4,7</bounds>
+	</param>
+	<param name="vaccine delay" type="range" production-type="yearling-pasture feedlot">
+		<bounds>4,7</bounds>
+	</param>
+	
+	
+	
+	
+	
+	
+	</parameters>
+</parameterRanges>	

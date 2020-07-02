@@ -1,0 +1,91 @@
+<setting>  
+	<defaultAppValues>
+		<confidence_interval var="defaultCI">0.99999999999</confidence_interval>
+		<piecewise_points var="defaultNrPoints">100</piecewise_points>
+		<bounding-box var="defaultBoundingBox">0.20</bounding-box>
+	</defaultAppValues>
+	
+	<outputDistribution>
+		<beta>
+			<alpha>0</alpha>
+			<beta>0</beta>
+			<location>0</location>
+			<scale>0</scale>
+		</beta>
+	</outputDistribution>		
+
+
+	<production-type_mapping>
+		<map  exp= '.*market.*' 									returnedName= 'Market'/>		
+		<map  exp= '.*feedlot.*|.*yearling pasture.*'							returnedName= 'Feedlot'/>		
+		<map  exp= 'dealer|.*mixed.*|.*cattle-swine.*|.*misc.*|.*small(farm)?.*|.*\bstocker\b.*|bd|ds|bs|bds' 	returnedName= 'Other'/>		
+		<map  exp= '.*(feral|deer).*' 									returnedName= 'Wildlife'/>		
+		<map  exp= '^b$|^bd$|.*(cattle|dairy|beef|cow[- ]?calf).*|d|.*\bCC\b.*' 			returnedName= 'Cattle'/>		
+		<map  exp= '.*(pig|swine|farrow|finisher).*|p' 							returnedName= 'Pigs'/>	
+		<map  exp= '.*(sheep|goat|ruminant|Ruminants|smru).*' 						returnedName= 'Sheep/Goats'/>	
+	</production-type_mapping>
+			
+	<paramName_mapping>
+		<map  exp= '.*units-can-infect.*'  	        		returnedName= 'noparse'/>		
+		<map  exp= '.*fixed-movement-rate.*'  	        	returnedName= 'noparse'/>	
+		<map  exp= '.*zone-prob-multiplier.*'  	    		returnedName= 'zone detection multiplier,6'/>		
+		<map  exp= '.*prob-report-vs-time-clinical.*' 		returnedName= 'detection,6'/>		
+		<map  exp= '.*prob-report-vs-time-since-outbreak.*' returnedName= 'reporting,6'/>				
+		<map  exp= '.*prob-spread-1km.*' 					returnedName= 'prob spread 1km,6'/>				
+		<map  exp= '.*wind-direction-start.*' 				returnedName= 'airborne direction,6'/>	
+		<map  exp= '.*wind-direction-end.*' 				returnedName= 'airborne span,6'/>	
+		<map  exp= '.*destruction-program-delay.*'			returnedName= 'destruction program delay,0'/>	
+		<map  exp= '.*destruction-capacity.*'	    		returnedName= 'destruction capacity,0'/>	
+		<map  exp= '.*vaccination-capacity.*'	    		returnedName= 'vaccination capacity,0'/>	
+		<map  exp= '.*vaccination-program-delay.*'	    	returnedName= 'vaccination program delay,0'/>	
+		<map  exp= '.*vaccination-radius.*'	    			returnedName= 'vaccination radius,6'/>	
+		<map  exp= '.*vaccination-min-time-between-vaccinations.*'	    	returnedName= 'min time between vaccinations,0'/>	
+		<map  exp= '.*vaccine-immunity-period.*' 			returnedName= 'vaccine immunity,0'/>	
+		<map  exp= '.*vaccine-delay.*' 						returnedName= 'vaccine delay,0'/>	
+		<map  exp= '.*zone-radius.*' 						returnedName= 'zone radius,6'/>	
+		<map  exp= '.*max-spread.*' 						returnedName= 'max spread,6'/>					
+		<map  exp= '.*\blatent-period\b.*'					returnedName= 'latent,6'/>		
+		<map  exp= '.*\bsubclinical-period\b.*' 					returnedName= 'subclinical,6'/>		
+		<map  exp= '.*\bclinical\b.*' 						returnedName= 'clinical,6'/>		
+		<map  exp= '.*\b(immunity|immune)\b.*' 				returnedName= 'immune,6'/>		
+		<map  exp= '.*\bprevalence\b.*' 					returnedName= 'WHP,6'/>		
+		<map  exp= '.*\bindirect\b.*'						returnedName= 'indirect'/>
+		<map  exp= '.*\bdirect\b.*'							returnedName= 'direct'/>
+		<map  exp= '.*\bmovement-rate\b.*'					returnedName= 'rate,6'/>
+		<map  exp= '.*movement-control.*'				    returnedName= 'movement,6'/>
+		<map  exp= '.*prob-infect.*'					    returnedName= 'prob infect,6'/>
+		<map  exp= '.*distance.*'			    			returnedName= 'distance,6'/>
+		<map  exp= '.*trace-period.*'					    returnedName= 'trace period,0'/>
+		<map  exp= '.*trace-delay.*'					    returnedName= 'trace delay,0'/>
+		<map  exp= '.*trace-success.*'					    returnedName= 'trace success,6'/>
+		<map  exp= '.*test delay.*'						    returnedName= 'test delay,6'/>
+		<map  exp= '.*test sensitivity.*'				    returnedName= 'sensitivity,6'/>
+		<map  exp= '.*test specificity.*'				    returnedName= 'specificity,6'/>
+	</paramName_mapping>													
+	
+	<inputDistributions>
+		<dist name= 'relational-function' 	class= 'Chart'/>		
+		<dist name= 'bernoulli' 	class= 'Bernoulli'/>	
+		<dist name= 'beta' 			class= 'Beta'/>
+		<dist name= 'beta-pert' 	class= 'BetaPert'/>
+		<dist name= 'binomial' 		class= 'Binomial'/>		
+		<dist name= 'negative-binomial'	class= 'NBinomial'/>
+		<dist name= 'chi' 			class= 'Chi'/>		
+		<dist name= 'exponential' 	class= 'Exponential'/>				
+		<dist name= 'gamma' 		class= 'Gamma'/>
+		<dist name= 'gaussian' 		class= 'Gaussian'/>	
+		<dist name= 'inverse-gaussian'	class= 'InvGaussian'/>	
+		<dist name= 'histogram' 	class= 'Histogram'/>		
+		<dist name= 'logistic' 		class= 'Logistic'/>
+		<dist name= 'loglogistic' 	class= 'Loglogistic'/>
+		<dist name= 'lognormal' 	class= 'Lognormal'/>
+		<dist name= 'pareto' 		class= 'Pareto'/>
+		<dist name= 'pearson3' 		class= 'Pearson3'/>
+		<dist name= 'pearson5' 		class= 'Pearson5'/>
+		<dist name= 'piecewise' 	class= 'Piecewise'/>	
+		<dist name= 'poisson' 		class= 'Poisson'/>
+		<dist name= 'triangular' 	class= 'Triangular'/>
+		<dist name= 'uniform' 		class= 'Uniform'/>
+		<dist name= 'weibull' 		class= 'Weibull'/>
+	</inputDistributions>
+</setting> 
