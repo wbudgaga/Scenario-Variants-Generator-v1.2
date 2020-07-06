@@ -17,8 +17,8 @@ To vary the values of the input parameters, the framwork employes
 Latin hypercube sampling (LHS) to sample from the plausible range. LHS
 stratifies the input probability distributions to better represent their underlying variability. This reduces the number of samples that is required for our algorithms to adequately explore the scenario parameter space, which in turn decreases the overall computational footprint of the framework. The following figure shows a visual comparison of sampling performed over a normal distribution using random, Monte Carlo, and Latin hypercube sampling by generating 1,000 samples and representing them by 50 bins.
 
-<img width="831" alt="A visual comparison of unweighted, weighted, and Latin hypercube sampling" src="https://user-images.githubusercontent.com/40745827/86634860-a0f71f80-bf8f-11ea-9e86-5a9a8035073e.png">
+<img width="431" alt="A visual comparison of unweighted, weighted, and Latin hypercube sampling" src="https://user-images.githubusercontent.com/40745827/86634860-a0f71f80-bf8f-11ea-9e86-5a9a8035073e.png">
 
-For generating the variants, the framework performs multiple tasks as they are shown in:
+For generating the variants, the framework performs multiple tasks as they are shown in the following figure:
 
 <img width="831" alt="The workflow of variants generation process" src="https://user-images.githubusercontent.com/40745827/86634178-c6cff480-bf8e-11ea-8b07-c6300be7c1c7.png">
